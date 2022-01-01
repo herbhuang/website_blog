@@ -35,6 +35,13 @@ name = "About"
 url = "/about"
 weight = 5
 
+## Add Last Modification Date
+
+[frontmatter]
+enableGitInfo = true
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [markup]
   [markup.tableOfContents]
     endLevel = 4

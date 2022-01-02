@@ -231,13 +231,13 @@ uglyURLs = false
         pre = "internal"
         post = ""
         #identifier = "tech"
-    [[menu.main]]
-        pageref = "/sci/"
-        name = "科学"
-        weight = 5
-        pre = "internal"
-        post = ""
-        identifier = "sci"
+    # [[menu.main]]
+    #     pageref = "/sci/"
+    #     name = "科学"
+    #     weight = 5
+    #     pre = "internal"
+    #     post = ""
+    #     identifier = "sci"
     [[menu.main]]
         pageref = "/about/"
         name = "关于"

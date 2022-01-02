@@ -190,12 +190,12 @@ uglyURLs = false
 
 [menu]
     # 菜单栏
-    [[menu.main]]
-        pageref = "/"
-        name = "首页"
-        weight = 1
-        pre = "internal"
-        post = ""
+    # [[menu.main]]
+    #     pageref = "/"
+    #     name = "首页"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = ""
     [[menu.main]]
         pageref = "/posts/"
         name = "文章"
@@ -231,7 +231,7 @@ uglyURLs = false
         weight = 88
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 99
+        weight = 1
         identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
@@ -966,7 +966,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 16
+    fontSize = 20
 
     ######################################
     ## 制表符的宽度
@@ -1164,7 +1164,7 @@ uglyURLs = false
     # 文章的标签
 
     # 是否开启
-    enablePostTags = true
+    enablePostTags = false
 
     # 标签的图标
     postTagsIcon = "tag"

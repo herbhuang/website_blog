@@ -3,17 +3,17 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">望洋兴叹</title>
-    <subtitle type="html">Guan Qirui&#39;s Blog</subtitle>
-    <updated>2022-01-02T03:32:03-06:00</updated>
+    <subtitle type="html">一个人的个人博客</subtitle>
+    <updated>2022-01-02T15:45:57-06:00</updated>
     <id>https://herbhuang.com/</id>
     <link rel="alternate" type="text/html" href="https://herbhuang.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://herbhuang.com/atom.xml" />
     <author>
-            <name>Guan Qirui</name>
+            <name>Herb</name>
             <uri>https://herbhuang.com/</uri>
             
-                <email>guanqirui@zju.edu.cn</email>
+                <email>me@herbhuang.com</email>
             </author>
-    <rights>本文采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议，转载请注明出处。</rights>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.91.2">Hugo</generator>
 </feed>

@@ -9,21 +9,21 @@
     <channel>
         <title>望洋兴叹</title>
         <link>https://herbhuang.com/</link>
-        <description>Guan Qirui&#39;s Blog</description>
+        <description>一个人的个人博客</description>
         <generator>Hugo 0.91.2 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
         
-            <managingEditor>guanqirui@zju.edu.cn (Guan Qirui)</managingEditor>
+            <managingEditor>me@herbhuang.com (Herb)</managingEditor>
         
         
-            <webMaster>guanqirui@zju.edu.cn (Guan Qirui)</webMaster>
+            <webMaster>me@herbhuang.com (Herb)</webMaster>
         
         
-            <copyright>本文采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可协议，转载请注明出处。</copyright>
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 02 Jan 2022 03:32:03 -0600</lastBuildDate>
+        <lastBuildDate>Sun, 02 Jan 2022 15:45:57 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://herbhuang.com/rss.xml" />
         

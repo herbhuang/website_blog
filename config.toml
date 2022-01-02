@@ -232,12 +232,12 @@ uglyURLs = false
         post = ""
         identifier = "tech"
     [[menu.main]]
-        pageref = "/sci/"
-        name = "科学"
+        pageref = "/social/"
+        name = "社会"
         weight = 5
         pre = "internal"
         post = ""
-
+        identifier = "social"
     [[menu.main]]
         pageref = "/about/"
         name = "关于"

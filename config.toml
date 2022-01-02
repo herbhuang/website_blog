@@ -231,13 +231,7 @@ uglyURLs = false
         pre = "internal"
         post = ""
         identifier = "tech"
-    [[menu.main]]
-        pageref = "/social/"
-        name = "社会"
-        weight = 5
-        pre = "internal"
-        post = ""
-        identifier = "social"
+
     [[menu.main]]
         pageref = "/about/"
         name = "关于"

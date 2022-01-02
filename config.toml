@@ -46,7 +46,7 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
-    categories = "/categories/:slug/"
+    # categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # 类别
@@ -203,6 +203,20 @@ uglyURLs = false
     #     pre = "internal"
     #     post = ""
     [[menu.main]]
+        pageref = "/categories/"
+        name = "分类"
+        weight = 3
+        pre = "internal"
+        post = ""
+        identifier = "categories"
+    [[menu.main]]
+        pageref = "/tags/"
+        name = "标签"
+        weight = 4
+        pre = "internal"
+        post = ""
+        
+    [[menu.main]]
         pageref = "/life/"
         name = "生活"
         weight = 5
@@ -216,23 +230,11 @@ uglyURLs = false
         post = ""
     [[menu.main]]
         pageref = "/tech/"
-        name = "科学"
+        name = "技术"
         weight = 7
         pre = "internal"
         post = ""
-    [[menu.main]]
-        pageref = "/categories/"
-        name = "分类"
-        weight = 3
-        pre = "optional"
-        post = ""
-        identifier = "categories"
-    [[menu.main]]
-        pageref = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "optional"
-        post = ""
+
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
@@ -412,7 +414,7 @@ uglyURLs = false
     displayPostsCount = true
 
     # 设置一个非负数来限制每一分类下展示的文章数
-    limitPostsLimit = 5
+    limitPostsLimit = 3
 
 
     ######################################
@@ -782,14 +784,14 @@ uglyURLs = false
     expiredDateIcon = "calendar-times"
 
     # 是否显示分类
-    displayCategory = true
+    displayCategory = false
     # 分类的图标
     categoryIcon = "folder"
     # 分类之间的分隔符
     categoryDelimiter = "/"
 
     # 是否显示字数统计
-    displayWordCount = true
+    displayWordCount = false
     # 字数统计的图标
     wordCountIcon = "pencil-alt"
 
@@ -1092,7 +1094,7 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = false
+    enablePostGitInfo = true
 
     # 是否显示（全局设置）
     displayPostGitInfo = false
@@ -1100,7 +1102,7 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = ""
+    repoURL = "https://github.com/herbhuang/herbhuang.github.io.git"
     # 编辑地址
     repoEditURL = ""
 
@@ -1204,7 +1206,7 @@ uglyURLs = false
 
     # 是否开启
     enableMinimalFooter = true
-    enableVerticalBarStructure = false
+    enableVerticalBarStructure = true
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
     #      以竖线（|）分隔开来。
@@ -1239,7 +1241,7 @@ uglyURLs = false
     enableFooter = true
 
     # 是否显示
-    displayFooter = true
+    displayFooter = false
 
     # 是否在首页显示
     displayFooterInHome = true

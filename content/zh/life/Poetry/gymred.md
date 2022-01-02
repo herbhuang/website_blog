@@ -3,7 +3,7 @@ title: Gym Red
 type: poetry  
 date: 2015-03-19 18:17:50  
 author: Herb  
-draft: true
+
 ---  
 你喜欢骚红色  
 那就用骚红色的吧  

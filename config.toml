@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://herbhuang.com"
+baseURL = "https://herbhuang.com/"
 title = "望洋兴叹"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -16,7 +16,7 @@ newContentEditor = ""
 
 # i18n
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 # 是否复数化列表页面的标题
 pluralizeListTitles = false
@@ -892,7 +892,7 @@ uglyURLs = false
     enableImageHost = false
 
     # 图片外链地址
-    imageHostURL = "https://example.com/"
+    imageHostURL = "https://herbhuang.com/"
 
     # 是否将 HTML 的头部元数据中的图片链接也替换为外链
     headAlso = false
@@ -913,7 +913,7 @@ uglyURLs = false
     enableVideoHost = false
 
     # 视频外链地址
-    videoHostURL = "https://example.com/"
+    videoHostURL = "https://herbhuang.com/"
 
 
     ######################################

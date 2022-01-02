@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>望洋兴叹</title>
+        <link>https://herbhuang.com/en/</link>
+        <description>Blog of reuixiy in English.</description>
+        <generator>Hugo 0.91.2 https://gohugo.io/</generator>
+        
+            <language>en-US</language>
+        
+        
+            <managingEditor>me@herbhuang.com (Herb)</managingEditor>
+        
+        
+            <webMaster>me@herbhuang.com (Herb)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Sun, 02 Jan 2022 01:02:55 -0600</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://herbhuang.com/en/rss.xml" />
+        
+        
+    </channel>
+</rss>

@@ -196,29 +196,41 @@ uglyURLs = false
     #     weight = 1
     #     pre = "internal"
     #     post = ""
-    [[menu.main]]
-        pageref = "/posts/"
-        name = "文章"
-        weight = 2
-        pre = "internal"
-        post = ""
+    # [[menu.main]]
+    #     pageref = "/posts/"
+    #     name = "文章"
+    #     weight = 2
+    #     pre = "internal"
+    #     post = ""
     [[menu.main]]
         pageref = "/life/"
         name = "生活"
-        weight = 3
+        weight = 5
+        pre = "internal"
+        post = ""
+    [[menu.main]]
+        pageref = "/sci/"
+        name = "科学"
+        weight = 6
+        pre = "internal"
+        post = ""
+    [[menu.main]]
+        pageref = "/tech/"
+        name = "科学"
+        weight = 7
         pre = "internal"
         post = ""
     [[menu.main]]
         pageref = "/categories/"
         name = "分类"
-        weight = 8
+        weight = 3
         pre = "optional"
         post = ""
         identifier = "categories"
     [[menu.main]]
         pageref = "/tags/"
         name = "标签"
-        weight = 9
+        weight = 4
         pre = "optional"
         post = ""
     [[menu.main]]

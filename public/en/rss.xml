@@ -7,23 +7,23 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>望洋兴叹</title>
+        <title>Guan Qirui&#39;s Blog</title>
         <link>https://herbhuang.com/en/</link>
-        <description>Blog of reuixiy in English.</description>
+        <description>Guan Qirui&#39;s Blog in English.</description>
         <generator>Hugo 0.91.2 https://gohugo.io/</generator>
         
             <language>en-US</language>
         
         
-            <managingEditor>me@herbhuang.com (Herb)</managingEditor>
+            <managingEditor>guanqirui@zju.edu.cn (Guan Qirui)</managingEditor>
         
         
-            <webMaster>me@herbhuang.com (Herb)</webMaster>
+            <webMaster>guanqirui@zju.edu.cn (Guan Qirui)</webMaster>
         
         
-            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+            <copyright>The article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).</copyright>
         
-        <lastBuildDate>Sun, 02 Jan 2022 03:04:35 -0600</lastBuildDate>
+        <lastBuildDate>Sun, 02 Jan 2022 03:32:03 -0600</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://herbhuang.com/en/rss.xml" />
         

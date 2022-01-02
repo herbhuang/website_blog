@@ -478,7 +478,7 @@ uglyURLs = false
     displayTaxonomyTermCount = true
 
     # 设置一个非负数来限制每一类别项下展示的文章数
-    limitEntriesLimit = 5
+    limitEntriesLimit = 3
 
 
     ######################################

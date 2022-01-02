@@ -8,5 +8,6 @@ dropCap = false
 displayCopyright = false
 gitinfo = false
 toc = false
+badge = false
 ---
 

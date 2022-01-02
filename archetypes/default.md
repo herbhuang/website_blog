@@ -1,4 +1,4 @@
----
++++
 title = "{{ replace .Name "-" " " | title }}"
 description = ""
 date = "{{ .Date }}"
@@ -9,5 +9,4 @@ displayCopyright = false
 gitinfo = false
 toc = false
 badge = false
----
-
++++

@@ -16,7 +16,7 @@ newContentEditor = ""
 
 # i18n
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # 是否复数化列表页面的标题
 pluralizeListTitles = false
@@ -1242,10 +1242,10 @@ uglyURLs = false
     # 页脚
 
     # 是否开启
-    enableFooter = true
+    enableFooter = false
 
     # 是否显示
-    displayFooter = false
+    displayFooter = true
 
     # 是否在首页显示
     displayFooterInHome = true

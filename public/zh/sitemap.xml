@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://herbhuang.com/series/</loc>
+    <loc>https://herbhuang.com/zh/series/</loc>
   </url><url>
-    <loc>https://herbhuang.com/tags/</loc>
+    <loc>https://herbhuang.com/zh/tags/</loc>
   </url><url>
-    <loc>https://herbhuang.com/</loc>
+    <loc>https://herbhuang.com/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,7 +15,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://herbhuang.com/"
+                href="https://herbhuang.com/zh/"
                 />
   </url>
 </urlset>

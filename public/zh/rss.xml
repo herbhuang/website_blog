@@ -8,11 +8,11 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>望洋兴叹</title>
-        <link>https://herbhuang.com/en/</link>
-        <description>Blog of reuixiy in English.</description>
+        <link>https://herbhuang.com/zh/</link>
+        <description>一个人的个人博客</description>
         <generator>Hugo 0.91.2 https://gohugo.io/</generator>
         
-            <language>en-US</language>
+            <language>zh-CN</language>
         
         
             <managingEditor>me@herbhuang.com (Herb)</managingEditor>
@@ -21,11 +21,11 @@
             <webMaster>me@herbhuang.com (Herb)</webMaster>
         
         
-            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
         <lastBuildDate>Sun, 02 Jan 2022 16:02:48 -0600</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://herbhuang.com/en/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://herbhuang.com/zh/rss.xml" />
         
         
     </channel>

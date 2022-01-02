@@ -16,7 +16,7 @@ newContentEditor = ""
 
 # i18n
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # 是否复数化列表页面的标题
 pluralizeListTitles = false

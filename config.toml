@@ -203,8 +203,8 @@ uglyURLs = false
         pre = "internal"
         post = ""
     [[menu.main]]
-        pageref = "/poetry/"
-        name = "诗歌"
+        pageref = "/life/"
+        name = "生活"
         weight = 3
         pre = "internal"
         post = ""
@@ -400,7 +400,7 @@ uglyURLs = false
     displayPostsCount = true
 
     # 设置一个非负数来限制每一分类下展示的文章数
-    limitPostsLimit = -1
+    limitPostsLimit = 5
 
 
     ######################################

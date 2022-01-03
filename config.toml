@@ -212,7 +212,7 @@ uglyURLs = false
         identifier = "tags"
     [[menu.main]]
         url = "/categories/"
-        name = "分类"
+        name = "归档"
         weight = 2
         pre = "internal"
         post = "" 
@@ -383,7 +383,7 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "2014-01-01T20:13:14+00:00"
+    siteCreatedTime = "2013-01-01T20:13:14+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
@@ -575,7 +575,7 @@ uglyURLs = false
 
     jsonLD = true
     openGraph = true
-    twitterCards = true
+    twitterCards = false
     # 注意：如果你设置 twitterCards 为 `true`，
     #      请务必开启 openGraph。否则，网页的
     #      Twitter Cards 信息将会不完整。
@@ -998,7 +998,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 20
+    fontSize = 18
 
     ######################################
     ## 制表符的宽度
@@ -1058,7 +1058,7 @@ uglyURLs = false
     ## 大型小写（英文）
 
     # 是否开启（全局设置）
-    enableSmallCaps = false
+    enableSmallCaps = true
     # 说明：只会应用到分节标题和目录标题
     #      文章的 Front Matter 中的 `smallCaps`
     #      的优先级高于此处

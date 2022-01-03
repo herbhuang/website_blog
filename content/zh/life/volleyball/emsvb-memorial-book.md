@@ -1,7 +1,7 @@
 +++
 title = "经管排球纪念册"
 description = ""
-date = "2022-01-02T22:31:16-06:00"
+date = "2021-06-25T22:31:16-06:00"
 tags = ["感受"]
 series = ["毕业有感","经管排球"]
 dropCap = true

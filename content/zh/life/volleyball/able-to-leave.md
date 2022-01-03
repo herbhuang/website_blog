@@ -1,7 +1,7 @@
 +++
 title = "Able to Leave"
 description = ""
-date = "2022-01-02T23:43:52-06:00"
+date = "2021-04-10T23:43:52-06:00"
 tags = ["梅操", "感受"]
 series = ["毕业有感"]
 dropCap = true

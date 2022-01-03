@@ -1,12 +1,12 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
-description = ""
 date = "{{ .Date }}"
 tags = [""]
 series = [""]
-dropCap = true
+type = "poetry"
+dropCap = false
 displayCopyright = false
 gitinfo = false
 toc = false
-badge = false
 +++
+

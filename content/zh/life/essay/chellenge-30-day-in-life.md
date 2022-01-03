@@ -1,6 +1,6 @@
 ---
 title: 30天回忆挑战
-comments: true
+
 date: 2018-08-23 22:12:19
 updated:
 tags:

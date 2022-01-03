@@ -1,7 +1,7 @@
 +++
 title = "我想有的人"
 date = "2021-04-06T23:46:25-06:00"
-tags = ["爱"]
+tags = ["love"]
 series = [""]
 type = "poetry"
 dropCap = false

@@ -1,6 +1,6 @@
 ---
 title: 我在朋友圈发屁股，怎么了
-comments: false
+
 date: 2018-08-15 20:46:09
 tags:
 - 评论

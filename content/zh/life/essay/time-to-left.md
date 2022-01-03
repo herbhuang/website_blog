@@ -2,6 +2,7 @@
 title: 离去
 tags:
 - 杂文
+- love
 date: 2013-08-17 00:06:00
 author: Herb
 ---

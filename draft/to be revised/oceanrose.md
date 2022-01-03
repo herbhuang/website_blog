@@ -2,8 +2,7 @@
 title: Ocean Rose  
 type: poetry  
 date: 2014-09-19 15:37:07  
-author: Herb  
-
+author: Herb    
 ---  
 有风  
 从窗台吹来  

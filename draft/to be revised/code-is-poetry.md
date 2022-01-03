@@ -2,8 +2,7 @@
 title: Code Is Poetry  
 type: poetry  
 date: 2014-06-16 11:32:23  
-author: Herb  
-
+author: Herb    
 ---  
 代码如诗  
 我的诗意在键盘上停止  

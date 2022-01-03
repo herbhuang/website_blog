@@ -2,8 +2,7 @@
 title: 再见你，Z  
 type: poetry  
 author: Herb  
-date: 2018-02-01 23:17:25  
-
+date: 2018-02-01 23:17:25    
 ---  
 在时间的洗涤下  
 记忆都被增删改动  

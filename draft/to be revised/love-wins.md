@@ -2,8 +2,7 @@
 title: Love Wins  
 type: poetry  
 date: 2015-06-29 17:42:32  
-author: Herb  
-
+author: Herb    
 ---  
 一步一步走  
 一路头也不回  

@@ -2,8 +2,7 @@
 title: Pygmalion  
 type: poetry  
 date: 2015-05-01 13:39:59  
-author: Herb  
-
+author: Herb    
 ---  
 我不是Pygmalion  
 不过和他做了相反的事  

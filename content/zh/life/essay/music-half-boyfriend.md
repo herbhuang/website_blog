@@ -2,8 +2,7 @@
 title: 半步情人  
 type: poetry  
 date: 2015-09-30 15:22:34  
-author: Herb  
-
+author: Herb    
 ---    
 我们究竟何去何从    
 希望你不是在敷衍我    

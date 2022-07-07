@@ -58,7 +58,7 @@ uglyURLs = false
 
 # 修改时间
 [frontmatter]
-  lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+  lastmod = ["lastmod", ":fileModTime", ":git", ":default"]
 
 # Markdown 渲染器
 [markup]
@@ -635,7 +635,7 @@ uglyURLs = false
   # 说明：仅在生产环境（production）下渲染
 
   # 是否开启（全局设置）
-  enableComments = false
+  enableComments = true
   # 说明：文章的 Front Matter 中的 `comments`
   #    的优先级高于此处
 
@@ -668,12 +668,12 @@ uglyURLs = false
   # 说明：https://valine.js.org/
 
   ## Utterances
-  enableUtterances = false
-  utterancesRepo = ""
+  enableUtterances = true
+  utterancesRepo = "herbhuang/website_blog"
   utterancesIssueTerm = "pathname"
   utterancesTheme = "github-light"
   utterancesThemeDark = "photon-dark"
-  utterancesLabel = ""
+  utterancesLabel = "Comment💬"
   # 说明：https://utteranc.es/
 
   ## Gitalk
@@ -1098,7 +1098,7 @@ uglyURLs = false
   enablePostUpdatedBadge = true
 
   # 是否显示（全局设置）
-  displayUpdatedBadge = false
+  displayUpdatedBadge = true
   # 说明：文章的 Front Matter 中的 `badge`
   #    的优先级高于此处
 
@@ -1115,14 +1115,14 @@ uglyURLs = false
   enablePostGitInfo = true
 
   # 是否显示（全局设置）
-  displayPostGitInfo = false
+  displayPostGitInfo = true
   # 说明：文章的 Front Matter 中的 `gitinfo`
   #    的优先级高于此处
 
   # 仓库地址
-  repoURL = "https://github.com/herbhuang/herbhuang.github.io.git"
+  repoURL = "https://github.com/herbhuang/website_blog"
   # 编辑地址
-  repoEditURL = ""
+  repoEditURL = "https://github.com/herbhuang/website_blog/edit/main"
 
   # Git 的图标
   gitIcon = "code-branch"
@@ -1259,7 +1259,7 @@ uglyURLs = false
   enableFooter = true
 
   # 是否显示
-  displayFooter = false
+  displayFooter = true
 
   # 是否在首页显示
   displayFooterInHome = true

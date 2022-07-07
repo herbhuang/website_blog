@@ -218,16 +218,16 @@ uglyURLs = false
     post = "" 
     identifier = "categories"
   [[menu.main]]
-    url = "/life/"
+    url = "/live/"
     name = "生活"
-    weight = 7
+    weight = 4
     pre = "internal"
     post = ""
-    identifier = "life"
+    identifier = "live"
   [[menu.main]]
     url = "/know/"
     name = "知识"
-    weight = 8
+    weight = 5
     pre = "internal"
     post = ""
     identifier = "know"   
@@ -255,7 +255,7 @@ uglyURLs = false
   [[menu.main]]
     pageref = "/about/"
     name = "关于"
-    weight = 9
+    weight = 8
     pre = "internal"
     post = ""
     identifier = "about"
@@ -263,7 +263,7 @@ uglyURLs = false
     weight = 10
     identifier = "theme-switcher"
   [[menu.main]]
-    weight = 1
+    weight = 9
     identifier = "lang-switcher"
   # [[menu.main]]
   #   weight = 8
@@ -1437,11 +1437,13 @@ uglyURLs = false
   contentDir = "content/en"
   weight = 2
   languageCode = "en-US"
-  hasCJKLanguage = false
+  hasCJKLanguage = true
   copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 [languages.en.taxonomies]
   # category = "categories"
   tag = "tags"
+  series = "series"
+
 [languages.en.menu]
   # [[languages.en.menu.home]]
   #   pageref = "/"
@@ -1449,51 +1451,50 @@ uglyURLs = false
   #   pre = "internal"
   #   post = "user-circle"
   #   identifier = "about"
-  [[languages.en.languages.en.menu.main]]
-     [[menu.main]]
-    url = "/tags/"
-    name = "Tags"
+  [[languages.en.menu.main]]
+    url = "/en/tags/"
+    name = "tags"
     weight = 1
     pre = "internal"
     post = ""
     identifier = "tags"
   [[languages.en.menu.main]]
-    url = "/categories/"
-    name = "Categories"
+    url = "/en/categories/"
+    name = "categories"
     weight = 2
     pre = "internal"
     post = "" 
     identifier = "categories"
   [[languages.en.menu.main]]
-    url = "/life/"
-    name = "Life"
+    url = "/en/series/"
+    name = "series"
     weight = 3
+    pre = "internal"
+    post = "" 
+    identifier = "series"
+  [[languages.en.menu.main]]
+    url = "/en/live/"
+    name = "live"
+    weight = 4
     pre = "internal"
     post = ""
     identifier = "life"
   [[languages.en.menu.main]]
-    url = "/sci-tech/"
-    name = "Science & Tech"
-    weight = 4
-    pre = "internal"
-    post = ""
-    identifier = "sci-tech"
-  [[languages.en.menu.main]]
-    url = "/soc-hum/"
-    name = "Society & Human"
+    url = "/en/know/"
+    name = "know"
     weight = 5
     pre = "internal"
     post = ""
-    identifier = "soc-hum"
+    identifier = "know"
   [[languages.en.menu.main]]
     pageref = "/about/"
     name = "about"
-    weight = 7
+    weight = 8
     pre = "internal"
-    post = "user-circle"
+    post = ""
     identifier = "about"
   [[languages.en.menu.main]]
-    weight = 8
+    weight = 10
     identifier = "theme-switcher"
   [[languages.en.menu.main]]
     weight = 9

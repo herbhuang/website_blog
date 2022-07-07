@@ -98,7 +98,7 @@ uglyURLs = false
 # 作者信息
 [author]
   # 名字
-  name = "Herb"
+  name = "Herb Huang"
   # 邮箱
   email = "me@herbhuang.com"
   # 座右铭或简介
@@ -217,41 +217,41 @@ uglyURLs = false
     pre = "internal"
     post = "" 
     identifier = "categories"
-  [[menu.main]]
-    url = "/live/"
-    name = "生活"
-    weight = 4
-    pre = "internal"
-    post = ""
-    identifier = "live"
-  [[menu.main]]
-    url = "/know/"
-    name = "知识"
-    weight = 5
-    pre = "internal"
-    post = ""
-    identifier = "know"   
-  [[menu.main]]
+   [[menu.main]]
     url = "/series/"
     name = "合集"
     weight = 3
     pre = "internal"
     post = ""
     identifier = "series"     
-  # [[menu.main]]
-  #   url = "/sci-tech/"
-  #   name = "科学技术"
-  #   weight = 4
-  #   pre = "internal"
-  #   post = ""
-  #   identifier = "sci-tech"
-  # [[menu.main]]
-  #   url = "/soc-hum/"
-  #   name = "社会人文"
-  #   weight = 5
-  #   pre = "internal"
-  #   post = ""
-  #   identifier = "soc-hum"
+  [[menu.main]]
+    url = "/life/"
+    name = "生活"
+    weight = 4
+    pre = "internal"
+    post = ""
+    identifier = "life"
+  [[menu.main]]
+    url = "/sci-tech/"
+    name = "科技"
+    weight = 5
+    pre = "internal"
+    post = ""
+    identifier = "sci-tech"   
+  [[menu.main]]
+    url = "/art/"
+    name = "文艺"
+    weight = 6
+    pre = "internal"
+    post = ""
+    identifier = "art" 
+  [[menu.main]]
+    url = "/soc/"
+    name = "社会"
+    weight = 7
+    pre = "internal"
+    post = ""
+    identifier = "soc"
   [[menu.main]]
     pageref = "/about/"
     name = "关于"
@@ -500,7 +500,7 @@ uglyURLs = false
 
   # 说明：分区的名字即站点的 content 目录下
   #    的文件夹的名字。
-  mainSections = ["life","know"]
+  mainSections = ["life","sci-tech","soc","art"]
   # mainSections = ["life","sci", "soc", "hum"]
 
 
@@ -1259,7 +1259,7 @@ uglyURLs = false
   enableFooter = true
 
   # 是否显示
-  displayFooter = true
+  displayFooter = false
 
   # 是否在首页显示
   displayFooterInHome = true
@@ -1473,8 +1473,8 @@ uglyURLs = false
     post = "" 
     identifier = "series"
   [[languages.en.menu.main]]
-    url = "/en/live/"
-    name = "live"
+    url = "/en/life/"
+    name = "life"
     weight = 4
     pre = "internal"
     post = ""
@@ -1512,4 +1512,4 @@ uglyURLs = false
   enableSmallCaps = true
   enableEmphasisPoint = false
   enableChinesePunctuationGlyphCorrection = false
-  customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+  #customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"

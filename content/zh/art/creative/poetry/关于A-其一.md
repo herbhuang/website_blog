@@ -1,5 +1,5 @@
 ---
-title: 关于Andrew
+title: 关于A
 type: poetry
 date: 2022-02-12 07:25:22
 author: Herb

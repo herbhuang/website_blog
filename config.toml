@@ -16,7 +16,7 @@ newContentEditor = "code"
 
 # i18n
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # 是否复数化列表页面的标题
 pluralizeListTitles = false
@@ -1513,3 +1513,7 @@ uglyURLs = false
   enableEmphasisPoint = false
   enableChinesePunctuationGlyphCorrection = false
   #customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+
+  
+[security.exec]
+allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^code$"]

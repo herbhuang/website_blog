@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Test"
 description: ""
-date: "{{ .Date }}"
+date: "2022-08-10T17:40:11-05:00"
 tags: 
     - ""
 series: 

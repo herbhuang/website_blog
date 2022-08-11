@@ -1,3 +1,3 @@
 +++
-title = "故事"
+title = "Story"
 +++

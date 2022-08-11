@@ -1,45 +1,21 @@
 ---
-title: "关于本站"
+title: "About me and this site"
 ---
-这是我的个人网站，一个**应该能**比较久地维护下去的网站。搭建博客就像写日记一样，一时兴起会开始写，很快就抛却脑后。
 
-就如今的框架而言，主要是两个部分，[生活](life)和[知识](know)。生活部份，我希望放置一些私人的回忆，仅仅与我个人相关的生命体验；知识部分，讨论一下世界：无论是客观世界或者社会与艺术。至于偏学术的部分，我就转移到我的学术主页去了。
+This is my personal blog. You are welcome and more than welcome! In my blog, I put most of my writtings here. My attitude to writing is largely influenced by my teachers in literature. Particularly, what Miss Tan in my high school told that writing is all about traces imprints.
 
-关于一个网站的历史，可以参看[这个合集](know/site/)，现在看起来，还是觉得很有趣。
+I would like to keep records of these words because they can help me trace back to the things, people, and surroundings that I have ever experienced. It proves by itself. Even at this moment, when I glance at the lines I wrote down in my high school, the feelings that I had resurfaces
 
-### 关于历史
+Aphantasia, refering to a condition that certain individuals cannot voluntarily image visual pictures in their minds, is found to relate with weaker autobiliographical memories. I am this kind of person. I do find myself having trouble in recalling my own experience. Writing, the abstraction of sensory information, can help me a lot in finding who I was.
 
-原先，最主要的三个项目就是 Blog, Fiction 和 Wiki 了。说是主要，其实也还没有完全搭建好，花费了很多时间在前期准备阶段。这或许就是为什么人们越来越习惯“托管”这一方案吧。耽于技术，疏于内容。直到现在，发现根据内容为每个项目构建一个方案实在有点不靠谱，想一想还是寻找一个养老方案比较好。
+I try to make my blog meaningful to the greater goods. Otherwise, I can keep the documents private. It is always thrilling to have someone resonate with me, via Internet. The medium has bridged the actual me and actual others in a virtual way. The communication of netizens has been boosting the dissemination of knowledge, unimaginably. I truly recognize its power and appreciate the benefits I gained. It deserves advocates.
 
-博客是我个人网站最初的目的，只是后来发现有些内容还是放得深一些，单凭酒香吸引人，还别有一番“曲径通幽”的乐趣。
+In terms of the content, most materials are Chinese at this moment. I have been urged to practice and imporove my writing (in academic setting), but using ESL and writing as much as possible will defenitly be a good approach. Thus, I will try to enrich my English blog :D
 
-### 关于诗歌
+The idea of owning a website emerged when I was in mimddle school. The knowledge is mostly from my textbook for CS class, which usually was charged by teachers of "major" subject. When I went through the tiny textbook, it shows that how I can have a webpage.
 
-就目前而言，诗歌应该会是这个网站的主要组成部分。我从初中开始写下自己的第一首短诗，到高中时达到以情诗为主的写作高峰，从形式上看，大都是现代诗，也曾填过几首符合格律的近体诗，不过后来散失了。很可惜。
+That sounds cool.
 
-大多数成诗现在看来，都十分幼稚，但是出于记录的目的，那些无从改动的“坏”诗，我依旧会展示出来。我的诗歌重视个人经验，还有一些小俏皮在里面（比如物理、地理小知识或者对文字字义和结构的玩弄），所以难免不容易懂，这也无妨。同时，我喜欢简单的言语和意象，语言上过于浅白，我也尽量克服。
+It starts with Frontpage, an older program from Microsoft. Sooner, I gave up and turned to Dreamweaver by Adobe. Just as what I am doing nowadays, my first webpage is driven by serach engine, templates, and copy&paste. Unfortunately, I lost all the document at that stage. Moving on, I have a serious urge to have a website for my gang with whom I got along well. I have to made something collectively owned. Then, I started my exploration of Wordpress, a real blog platform. The work ended up a website named "Violet", suggesting our everlasting love to each other.
 
-诗歌大都是情诗，从我自以为懂得爱情，四年有余了。情诗总是有指向性的，但并不具体为某个人写，我为我自己写。这种每时每刻都与爱情相纠缠的文字，似乎彰显我不断地处在爱情和期盼爱情的阶段，总是爱一个人后再爱一个人，显示出我对爱欲的极度追求，颇有风流渣男的潜质。这评价未免过于激烈，我爱过的人不多，爱得深的不少，这与我爱人的方式有关，我的爱情在最近之前，出于本性和本能，都是热烈的、没有保留的、专一的。诗歌的感情是绝对真诚，那些反复、迟疑和激越的欲望，我并不掩饰。
-
-我要承认，我在诗中常常扮演“痴情种”和“受害者”的身份，创作与现实不同就在于放大了我的感受，请允许我以纯粹的感性来写诗。我要也承认，从现实来讲，我并不是一个很好的爱人。
-
-## Credit
-
-本网站的建立离不开互联网，以及所有互联网的建设者。因此，我要在这里感谢向为本网站有偿或无偿提供服务和帮助的个人和组织表示感谢：在如此特殊的环境下，使得中国互联网仍能保持活力和竞争力，为人类世界做出了不可忽略和磨灭的贡献。
-
-目前，本站的技术栈：
-
-[Hugo](https://github.com/gohugoio/hugo): 出色的模块化静态网站生成器，为本网站提供了博客框架
-
-[MemE](https://github.com/reuixiy/hugo-theme-meme): 一个漂亮且完善的Hugo主题，最重要的是对诗歌文本排版良好
-
-[GitHub](https://github.com)：在线代码托管平台
-
-[Cloudflare Pages](https://pages.cloudflare.com): 网站部署
-
-此致。
-
-- 写于 2018 年 7 年 25 日夜 凤凰古城
-- 第一次修订于 2018 年 7 月 28 日凌晨 榕
-- 第N次修订于 2022 年第一天 达拉斯
-- 第N+1次修订于 2022 年 7 月 7 日下午 炎热的达拉斯
+By then I learned knowledge about website maintainance, including domains, host, PHP, etc. However, just as most projects I had, they just failed someday without me knowing. `

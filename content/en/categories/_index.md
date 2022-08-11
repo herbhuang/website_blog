@@ -1,3 +1,3 @@
 ---
-title: "archive"
+title: "Archival"
 ---

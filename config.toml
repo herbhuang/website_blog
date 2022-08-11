@@ -1458,44 +1458,63 @@ uglyURLs = false
   #   pre = "internal"
   #   post = "user-circle"
   #   identifier = "about"
+
+    [[languages.en.menu.main]]
+    weight = 1
+    identifier = "lang-switcher"
+
   [[languages.en.menu.main]]
     url = "/en/tags/"
-    name = "tags"
+    name = "Tags"
     weight = 1
     pre = "internal"
     post = ""
     identifier = "tags"
   [[languages.en.menu.main]]
     url = "/en/categories/"
-    name = "categories"
+    name = "Archival"
     weight = 2
     pre = "internal"
     post = "" 
     identifier = "categories"
   [[languages.en.menu.main]]
     url = "/en/series/"
-    name = "series"
+    name = "Series"
     weight = 3
     pre = "internal"
     post = "" 
     identifier = "series"
   [[languages.en.menu.main]]
     url = "/en/life/"
-    name = "life"
+    name = "Life"
     weight = 4
     pre = "internal"
     post = ""
     identifier = "life"
   [[languages.en.menu.main]]
-    url = "/en/know/"
-    name = "know"
+    url = "/en/sci-tech/"
+    name = "Sci-Tech"
     weight = 5
     pre = "internal"
     post = ""
-    identifier = "know"
+    identifier = "sci-tech"
   [[languages.en.menu.main]]
-    pageref = "/about/"
-    name = "about"
+    url = "/en/lit-art/"
+    name = "Lit&Art"
+    weight = 6
+    pre = "internal"
+    post = ""
+    identifier = "lit-art"
+  [[languages.en.menu.main]]
+    url = "/en/soc/"
+    name = "Society"
+    weight = 7
+    pre = "internal"
+    post = ""
+    identifier = "soc"
+  [[languages.en.menu.main]]
+    pageref = "/about"
+    name = "About"
     weight = 8
     pre = "internal"
     post = ""
@@ -1503,9 +1522,7 @@ uglyURLs = false
   [[languages.en.menu.main]]
     weight = 10
     identifier = "theme-switcher"
-  [[languages.en.menu.main]]
-    weight = 9
-    identifier = "lang-switcher"
+
 [languages.en.params]
   homePoetry = ["In the dark night", "Longing for a light of care", "In the daylight", "Desiring for the swallow of a black hole", "’Cause curiosity—seeks for what’s in the darkness"]
   siteDescription = "Herb's Blog in English."

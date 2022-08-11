@@ -1,3 +1,3 @@
 ---
-title: "LIVE"
+title: "生活"
 ---

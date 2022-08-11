@@ -1,6 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-description: ""
+title: "{{ replace .Name "poetry-" " " | title }}"
 date: "{{ .Date }}"
 tags: 
     - ""

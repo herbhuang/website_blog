@@ -1,15 +1,19 @@
-+++
-title = "Tireness in Whuems Volleyball"
-description = ""
-date = "2021-03-21T23:51:25-06:00"
-tags = ["感受","火炬杯"]
-series = ["经管排球"]
-dropCap = true
-displayCopyright = false
-gitinfo = false
-toc = false
-badge = false
-+++
+---
+title: "关于球队的疲惫感"
+description: ""
+date: "2021-03-21T23:51:25-06:00"
+tags: 
+    - "感受"
+    - "火炬杯"
+series: 
+    - "经管排球"
+dropCap: true
+displayCopyright: false
+gitinfo: false
+toc: false
+badge: false
+---
+
 关于球队，我可能有点累了。
 
 也不是因为球队表现不好，或者是某个队员表现不好。不是因为我付出太多，也不是因为球队对我做的太少。就是很直白的疲惫，特别在剧烈的情绪起伏后，更加直白。为很多事操心，为很多事开心。

@@ -2,8 +2,8 @@
 title: 椿树远来香
 tags:
 - 思乡
-tags: 
-- 随笔
+series: 
+- "故土"
 date: 2014-09-03 15:51:29
 lastmod: 2014-09-08
 author: Herb

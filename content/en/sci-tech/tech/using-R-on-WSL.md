@@ -10,7 +10,7 @@ series:
 dropCap: false
 displayCopyright: false
 gitinfo: false
-toc: false
+toc: true
 badge: false
 draft: true
 ---

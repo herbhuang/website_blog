@@ -1,3 +1,3 @@
 +++
-title = "Science & Technology"
+title = "Sci-Tech"
 +++

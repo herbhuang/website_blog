@@ -12,7 +12,6 @@ displayCopyright: false
 gitinfo: false
 toc: true
 badge: false
-draft: true
 ---
 
 ## Takeaway

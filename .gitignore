@@ -3,6 +3,8 @@
 /resources/
 /draft/
 /static/images/cards
+.Rhistory
+.RData
 .env
 .Rproj.user
 .DS_Store

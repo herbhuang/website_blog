@@ -1,5 +1,5 @@
 ---
-title: "Load in My Brain"
+title: "脑中思虑"
 description: ""
 date: "2022-08-08T23:59:38-05:00"
 tags: 

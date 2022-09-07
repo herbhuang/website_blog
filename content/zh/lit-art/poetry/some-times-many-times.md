@@ -1,0 +1,30 @@
+---
+title: "Some Times Many Times"
+description: ""
+date: "2022-09-04T23:54:48-05:00"
+tags: 
+    - ""
+series: 
+    - ""
+type: "poetry"
+dropCap: false
+displayCopyright: false
+gitinfo: false
+toc: false
+badge: false
+---
+在最初时刻  
+我的敏感令我爱你更多  
+在某些时刻、很多时刻  
+我的敏感伤害着我  
+
+为此，我并不责怪你  
+我把自己的爱酝酿  
+我痛饮：  
+醋意和苦涩  
+
+心声在每一口气都振振：  
+我嫉妒、我委屈  
+我恨我自己的软弱  
+我爱而不得  
+我爱而不止  

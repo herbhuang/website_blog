@@ -1,0 +1,29 @@
+---
+title: "Mostly Charming"
+description: ""
+date: "2022-09-19T09:48:36-05:00"
+tags: 
+    - "love"
+series: 
+    - ""
+type: "poetry"
+dropCap: false
+displayCopyright: false
+gitinfo: false
+toc: false
+badge: false
+---
+在很多时刻你是迷人的
+我在狭路；无处可逃
+你有无穷的光在眼里
+无穷，故我无处容身
+
+如何令你爱上我
+在某些时刻：慎重地
+我恨自己是这个复杂世界的一部分
+这也是我爱自己的理由
+
+我知道，你必须追加足够勇气
+来给我回音
+此时，我面对的
+无声的山谷

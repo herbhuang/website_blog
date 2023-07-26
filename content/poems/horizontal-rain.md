@@ -1,6 +1,6 @@
 ---
 title: 短诗
-type: poetry
+categories: "poem"
 date: 2015-06-14 17:25:22
 author: Herb
 ---

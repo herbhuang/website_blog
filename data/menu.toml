@@ -1,0 +1,39 @@
+
+[[entries]]
+  title = "posts"
+  [entries.post_list]
+  section = "posts"
+  limit = 3
+    show_more = true
+  show_more_url = "posts"
+  show_more_text = ">>>"
+[[entries]]
+title = "poems"
+  [entries.post_list]
+  section = "poems"
+  limit = 3
+    show_more = true
+  show_more_url = "poems"
+  show_more_text = ">>>"
+
+[[entries]]
+title = "volleyball"
+  [entries.post_list]
+  section = "volleyball"
+  limit = 3
+  show_more = true
+  show_more_url = "volleyball"
+  show_more_text = ">>>"
+
+[[entries]]
+title = "hello, it's me"
+    [[entries.entries]]
+    title = "about"
+    url = "about"
+    [[entries.entries]]
+    title = "me#herbhuang.com"
+    [[entries.entries]]
+    title = "atom | rss | feed"
+    [[entries.entries]]
+    title = "2023@Herb | CC BY-NC-SA 4.0"
+

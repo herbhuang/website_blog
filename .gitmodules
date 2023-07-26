@@ -1,9 +1,0 @@
-[submodule "themes/eureka"]
-	path = themes/eureka
-	url = https://github.com/wangchucheng/hugo-eureka.git
-[submodule "themes/cactus"]
-	path = themes/cactus
-	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
-[submodule "themes/meme"]
-	path = themes/meme
-	url = https://github.com/reuixiy/hugo-theme-meme.git

@@ -1,14 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
-date: "{{ .Date }}"
-tags: 
-    - ""
-series: 
-    - ""
-dropCap: true
-displayCopyright: false
-gitinfo: false
-toc: false
-badge: false
+date: {{ .Date }}
+draft: true
 ---
+

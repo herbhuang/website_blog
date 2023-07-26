@@ -1,3 +1,0 @@
-+++
-title = "My PhD Grind"
-+++

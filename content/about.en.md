@@ -2,7 +2,7 @@
 title = "about me (and this site)"
 +++
 
-_>> [chinese version](/about.zh)_
+_>> [chinese version](/about.zh/)_
 
 This is my personal blog. You are welcome and more than welcome!
 

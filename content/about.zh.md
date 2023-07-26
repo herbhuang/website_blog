@@ -2,7 +2,7 @@
 title = "about me (and this site)"
 +++
 
-_>> [english version](/about)_
+_>> [english version](/about/)_
 
 这是我的个人网站，一个**应该能**比较久地维护下去的网站。搭建博客就像写日记一样，一时兴起会开始写，很快就抛却脑后。
 

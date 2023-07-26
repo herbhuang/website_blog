@@ -3,9 +3,8 @@ title: "Be Closer"
 description: ""
 date: "2022-09-02T23:48:47-05:00"
 tags: 
-    - ""
-series: 
-    - ""
+
+
 categories: "poem"
 
 ---

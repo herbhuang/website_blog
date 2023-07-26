@@ -3,9 +3,8 @@ title: "度日如年"
 description: ""
 date: "2022-09-16T21:56:39-05:00"
 tags: 
-    - ""
-series: 
-    - ""
+
+
 categories: "poem"
 
 ---

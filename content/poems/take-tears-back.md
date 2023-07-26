@@ -4,8 +4,7 @@ description: ""
 date: "2023-06-01T11:06:40-05:00"
 tags: 
     - "love"
-series: 
-    - ""
+
 categories: "poem"
 
 ---

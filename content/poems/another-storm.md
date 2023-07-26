@@ -3,9 +3,8 @@ title: "又一次风雨"
 description: ""
 date: "2022-09-05T23:56:39-05:00"
 tags: 
-    - ""
-series: 
-    - ""
+
+
 categories: "poem"
 
 ---

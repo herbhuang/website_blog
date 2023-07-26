@@ -4,8 +4,7 @@ description: ""
 date: "2022-12-01T09:55:29-05:00"
 tags: 
     - "love"
-series: 
-    - ""
+
 categories: "poem"
 
 ---

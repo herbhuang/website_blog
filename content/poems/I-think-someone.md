@@ -1,14 +1,13 @@
-+++
-title = "我想有的人"
-date = "2021-04-06T23:46:25-06:00"
-tags = ["love"]
-series = [""]
+---
+title: "我想有的人"
+date: "2021-04-06T23:46:25-06:00"
+tags: "love"
 categories: "poem"
-dropCap = false
-displayCopyright = false
-gitinfo = false
-toc = false
-+++
+dropCap: false
+displayCopyright: false
+gitinfo: false
+toc: false
+---
 我想有的人\
 的骨骼\
 能容纳所有故事\

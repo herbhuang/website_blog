@@ -3,9 +3,8 @@ title: "特别"
 description: ""
 date: "2022-09-15T23:12:09-05:00"
 tags: 
-    - ""
-series: 
-    - ""
+
+
 categories: "poem"
 
 ---

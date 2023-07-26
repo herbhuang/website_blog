@@ -3,8 +3,7 @@ title: "告诉你一些事"
 date: "2022-08-21T23:38:46-05:00"
 tags: 
     - "love"
-series: 
-    - ""
+
 categories: "poem"
 
 ---

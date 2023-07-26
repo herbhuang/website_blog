@@ -1,14 +1,9 @@
-+++
-title = "Afternoon in May"
-date = "2021-05-08T22:50:44-06:00"
-tags = ["love"]
-series = [""]
+---
+title: "五月的午后"
+date: "2021-05-08T22:50:44-06:00"
+tags: "love"
 categories: "poem"
-dropCap = false
-displayCopyright = false
-gitinfo = false
-toc = false
-+++
+---
 五月的午后\
 你骑着车\
 在阳光下的热浪\

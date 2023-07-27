@@ -6,7 +6,7 @@ categories: website
 
 ## 什么是 HSTS
 
-HSTS (**H**TTP **S**trict **T**ransport **S**ecurity) 是指 HTTP 严格传输安全，具体而言，是在服务器返回的 HTTP 响应头中添加“严格传输”字段，客户端发现该字段后，在此后的连接中便只能采用有证书加密的方式（即 HTTPS 方式）连接。
+HSTS (**H**TTP **S**trict **T**ransport **S**ecurity) 是指 HTTP 严格传输安全，具体而言，是在服务器返回的 HTTP 响应头中添加「严格传输」字段，客户端发现该字段后，在此后的连接中便只能采用有证书加密的方式（即 HTTPS 方式）连接。
 
 也就是说：当我第一次和你用中文打电话时，我以英语回答并且告诉你以后我们都用英语通话。那么下一次我们通话时，就必须用英语，否则手机自动挂机。当然，实际情况是浏览器会默认使用 HTTPS，对应到这个比喻，应该是你的*智能*手机会同声翻译成英语，你别想说中文。
 
@@ -26,7 +26,7 @@ add_header Strict-Transport-Security "max-age=63072000; includeSubdomains; prelo
 add_header X-Frame-Options "DENY";
 {% endcodeblock %}
 
-同时为了“说一次英语”，还增加了一个 301 跳转，使得用户第一次访问 HTTP 版本时强制跳转成 HTTPS：
+同时为了「说一次英语」，还增加了一个 301 跳转，使得用户第一次访问 HTTP 版本时强制跳转成 HTTPS：
 
 {% codeblock %}
 return 301 https://herbhuang.com$request_uri;

@@ -2,7 +2,7 @@
 title: Say Something
 date: 2015-07-10 17:56:23
 
-tag:
+tags:
 - music
 - lyrics
 categories: translations

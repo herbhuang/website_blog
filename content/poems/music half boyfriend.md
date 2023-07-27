@@ -1,7 +1,7 @@
 ---
 title: 半步情人
 date: 2015-09-30 15:22:34
-tag:
+tags:
     - music
     - lyrics
 categories: translations

@@ -1,6 +1,5 @@
 ---
 title: 我的宾馆的P图删不掉了
-comments: false
 date: 2018-08-11 20:42:00
 categories: fictions
 ---

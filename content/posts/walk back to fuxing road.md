@@ -1,10 +1,11 @@
 ---
-title: "走回到复兴路"
+title: 走回到复兴路
 description: ""
-date: "2021-03-17T23:54:32-06:00"
-tags: 
-  - "武汉大学"
-  - "友谊"
+date: 2021-03-17T23:54:32-06:00
+tags:
+  - 武汉大学
+  - friend
+categories: essays
 ---
 甚至很想就这么一直走回到复兴路。
 

@@ -1,9 +1,8 @@
 ---
 title: Ocean Rose
 date: 2014-09-19 15:37:07
-
 tags: 
-- 音乐
+- music
 ---
 有风\
 从窗台吹来\
@@ -24,6 +23,7 @@ tags:
 我的身体\
 就轻轻颤栗\
 波澜中的白蔷薇\
-就以红色晕开\
+就以红色晕开
+
 <iframe frameborder="no" align="middle" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="https://music.163.com/outchain/player?type=2&id=4281062&auto=1&height=66"></iframe>
 ·*这几行诗是在学校，上了楼，忽有秋风吹来，我略驻足而感受；回到宿舍，正好听了这首《Ocean Rose》，在旋律中取同名作此。*

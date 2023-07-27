@@ -22,8 +22,17 @@ title = "volleyball"
   section = "volleyball"
   limit = 3
   show_more = true
-  show_more_url = "volleyball"
+  show_more_url = "categories/volleyball"
   show_more_text = ">>>"
+
+[[entries]]
+title = "archive by"
+    [[entries.entries]]
+    title = "tags"
+    url = "tags"
+    [[entries.entries]]
+    title = "categories"
+    url = "categories"
 
 [[entries]]
 title = "hello, it's me"

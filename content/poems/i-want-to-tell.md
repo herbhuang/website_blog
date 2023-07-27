@@ -4,9 +4,6 @@ description: ""
 date: "2022-09-29T00:33:57-05:00"
 tags: 
     - "love"
-
-categories: "poem"
-
 ---
 我想要告诉每一个人，我的病痛\
 一些经受过的创伤，会写作人生\

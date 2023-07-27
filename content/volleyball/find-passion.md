@@ -1,15 +1,16 @@
-+++
-title = "找到激情"
-description = ""
-date = "2021-04-18T23:42:26-06:00"
-tags = ["微博","梅操","感受"]
-series = ["毕业有感","经管排球"]
-dropCap = true
-displayCopyright = false
-gitinfo = false
-toc = false
-badge = false
-+++
+---
+title: "找到激情"
+description: ""
+date: "2021-04-18T23:42:26-06:00"
+tags: 
+  - "微博"
+  - "梅操"
+series: 
+  - "毕业有感"
+  - "经管排球"
+
+categories: volleyball
+---
 当小学弟说出在打球的时候能「找到激情」，仿佛看见了当年的自己呀。
 
 五年啦，把从初中高中萌发的兴趣在秋天酝酿。时时刻刻开封饮用，加进新的风味。到现在，带着很多复杂的心绪、病痛的身体、隐秘的记忆，再来品尝：这是我一生最同自己和解的浪漫时光。

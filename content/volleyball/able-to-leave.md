@@ -1,15 +1,12 @@
-+++
-title = "到了离别的时候"
-description = ""
-date = "2021-04-10T23:43:52-06:00"
-tags = ["梅操", "感受"]
-series = ["毕业有感"]
-dropCap = true
-displayCopyright = false
-gitinfo = false
-toc = false
-badge = false
-+++
+---
+title: "到了离别的时候"
+description: ""
+date: "2021-04-10T23:43:52-06:00"
+tags: 
+  - "梅操"
+  - "毕业有感"
+categories: volleyball
+---
 今天下午和队友们打球，晚上和球友们打球，这是我的一天。打球快乐的逻辑，对我来说是记住每个精彩的球，搞笑的球。为此，很多遗憾沮丧都无妨。
 
 在每个人探索的诸多小路中，关于排球，我走得最远。在与排球相关的人中，我们的交汇最多。在共同重叠的路口上，正是这一个囚禁我五年青春的牢笼。

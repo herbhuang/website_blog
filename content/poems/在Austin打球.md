@@ -1,8 +1,7 @@
 ---
 title: 在Austin打球
-categories: "poem"
 date: 2022-07-31 07:25:22
-author: Herb
+
 ---
 
 极尽热爱：高低网口\
@@ -19,4 +18,4 @@ author: Herb
 在彼此间游走\
 眼睛追逐，身体靠近\
 向彼岸招呼\
-向己岸招呼\
+向己岸招呼

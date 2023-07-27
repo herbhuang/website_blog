@@ -4,9 +4,6 @@ description: ""
 date: "2022-08-8T23:57:05-05:00"
 tags: 
     - "love"
-
-categories: "poem"
-
 ---
 白日破碎，我知道\
 梦里等不来一艘航船\

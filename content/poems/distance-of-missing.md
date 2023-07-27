@@ -4,9 +4,6 @@ description: ""
 date: "2022-08-7T23:58:18-05:00"
 tags: 
     - "love"
-
-categories: "poem"
-
 ---
 我在没有你的方块中打球\
 在我的方块里观察你

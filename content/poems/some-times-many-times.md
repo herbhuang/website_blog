@@ -3,10 +3,6 @@ title: "Some Times Many Times"
 description: ""
 date: "2022-09-04T23:54:48-05:00"
 tags: 
-
-
-categories: "poem"
-
 ---
 在最初时刻\
 我的敏感令我爱你更多\
@@ -22,4 +18,4 @@ categories: "poem"
 我嫉妒、我委屈\
 我恨我自己的软弱\
 我爱而不得\
-我爱而不止\
+我爱而不止

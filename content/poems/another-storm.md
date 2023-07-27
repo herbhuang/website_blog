@@ -3,10 +3,6 @@ title: "又一次风雨"
 description: ""
 date: "2022-09-05T23:56:39-05:00"
 tags: 
-
-
-categories: "poem"
-
 ---
 又一次风雨\
 我们勉为其难地在这里奔赴\

@@ -1,8 +1,7 @@
 ---
 title: Say Something
-categories: "poem"
 date: 2015-07-10 17:56:23
-author: Herb
+
 tag:
 - 翻译
 - 歌词

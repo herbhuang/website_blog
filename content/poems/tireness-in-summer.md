@@ -3,7 +3,7 @@ title: "夏夜疲惫"
 description: ""
 date: "2022-08-23T23:53:16-05:00"
 tags: "love"
-categories: "poem"
+categories:
 ---
 于是夏夜也有疲惫的坠星\
 我在雨后，暗淡的街头疾驰\
@@ -16,4 +16,3 @@ categories: "poem"
 我们在彼此的故事里耽搁太久\
 但也只是耽搁\
 重新上路
-

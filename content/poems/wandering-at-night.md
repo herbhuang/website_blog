@@ -4,9 +4,6 @@ description: ""
 date: "2022-10-03T09:53:13-05:00"
 tags: 
     - "love"
-
-categories: "poem"
-
 ---
 长夜奔赴\
 从月色中起来\
@@ -20,4 +17,4 @@ categories: "poem"
 
 彼夜凝固，此夜新生\
 月渐满，人将散\
-屏息收声\
+屏息收声

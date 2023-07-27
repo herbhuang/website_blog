@@ -4,9 +4,6 @@ description: ""
 date: "2023-06-01T11:06:40-05:00"
 tags: 
     - "love"
-
-categories: "poem"
-
 ---
 收回一场破碎的泪水\
 坠下，再收回\
@@ -29,4 +26,4 @@ categories: "poem"
 所追寻的\
 我怎么告知你\
 令一阵风停留\
-仅此而已\
+仅此而已

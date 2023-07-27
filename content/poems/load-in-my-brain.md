@@ -4,9 +4,6 @@ description: ""
 date: "2022-08-08T23:59:38-05:00"
 tags: 
     - "love"
-
-categories: "poem"
-
 ---
 在莫名的故事里\
 莫名情节\

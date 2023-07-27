@@ -1,8 +1,7 @@
 ---
 title: Ocean Rose
-categories: "poem"
 date: 2014-09-19 15:37:07
-author: Herb
+
 tags: 
 - 音乐
 ---

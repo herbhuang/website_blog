@@ -4,9 +4,6 @@ description: ""
 date: "2022-09-23T00:37:06-05:00"
 tags: 
     - "love"
-
-categories: "poem"
-
 ---
 在九月的夜色里\
 我疲惫地像一条狗\

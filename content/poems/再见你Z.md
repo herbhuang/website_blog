@@ -1,7 +1,6 @@
 ---
 title: 再见你，Z
-categories: "poem"
-author: Herb
+
 date: 2018-02-01 23:17:25
 tags: 
 - love

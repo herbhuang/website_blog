@@ -149,18 +149,6 @@ author:
   twitter: HeHerbHuang
   location: 'Dallas, TX'
 
-# For more see https://gohugo.io/getting-started/configuration-markup/
-markup:
-  defaultMarkdownHandler: goldmark
-  highlight:
-    # false due to generated Syntax Highlighter CSS
-    noClasses: false
-  goldmark:
-    parser:
-      attribute:
-      # Enable custom attribute support for blocks
-        block: true
-
 # If enableGitInfo is true, it will override any lastmod dates in our
 # front matter. We should at least allow ourselves to manually override
 # this value in the front matter.
@@ -187,3 +175,28 @@ params:
     back_home_text: ".."
     date_format: "2006-01-02"
     show_description: true
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: onedark
+    tabWidth: 4
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false

@@ -13,14 +13,14 @@ categories: "tech notes"
 This guide records how I end up:
 
 - use R (and other Linux tools) on Linux via WSL
-- use Rstudio via any browser on Windows without leaving Unix platform
+- use RStudio via any browser on Windows without leaving Unix platform
 - use computation library (blas/lapack) for R
 
 ## What you need
 
-I use [Windows Terminal(https://github.com/microsoft/terminal) to run my command line.
+I use [Windows Terminal](https://github.com/microsoft/terminal) to run my command line.
 
-Before going through this guide, make sure you have your <abbr title="Windows subsystem for Linux">WSL</abbr> installed, see [document(https://docs.microsoft.com/en-us/windows/wsl/install). 
+Before going through this guide, make sure you have your <abbr title="Windows subsystem for Linux">WSL</abbr> installed, see [document](https://docs.microsoft.com/en-us/windows/wsl/install). 
 
 You can simply run the script as **administrator** if you never install WSL:
 
@@ -57,7 +57,7 @@ sudo apt upgrade
 
 ## Install R core and add CRAN repository
 
-I followed this [guide(https://cloud.r-project.org/bin/linux/ubuntu/#install-r) to install R and incorporate CRAN into apt repository:
+I followed this [guide](https://cloud.r-project.org/bin/linux/ubuntu/#install-r) to install R and incorporate CRAN into apt repository:
 
 ```shell
 # update indices
@@ -93,7 +93,7 @@ Running under: Ubuntu 22.04.1 LTS
 
 I installed RStudio Server because I can use Rstudio via browser, which makes no difference. If you want to use RStudio Desktop, you will need GUI software to make it works unless you have OS Build higher than `10.0.22000`, which support native GUI. But why bother?
 
-I followed this [guide(https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/) to install RStudio for Ubuntu. It is a bit different for Ubuntu 20 v.s. 22.
+I followed this [guide](https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/) to install RStudio for Ubuntu. It is a bit different for Ubuntu 20 v.s. 22.
 
 ```bash
 sudo apt install -y r-base r-base-core r-recommended r-base-dev gdebi-core build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
@@ -113,17 +113,17 @@ Now go to `localhost:8787` and enter your `username` and `password` for Ubuntu!
 
 ## Install BLAS and LAPACK to accelerate your matrix computation
 
-<abbr title="Basic Linear Algebra Subprograms">BLAS</abbr> and <abbr title="Linear Algebra PACKage">LAPACK</abbr> are useful because it improves R performance, see the [article(https://csantill.github.io/RPerformanceWBLAS/). 
+<abbr title="Basic Linear Algebra Subprograms">BLAS</abbr> and <abbr title="Linear Algebra PACKage">LAPACK</abbr> are useful because it improves R performance, see the [article](https://csantill.github.io/RPerformanceWBLAS/). 
 
 ### Install BLAS and LAPACK on Windows 
 
-Loading BLAS and LAPACK libraries for R on Windows is difficult (at least to me). The most "popular" [way(https://support.microsoft.com/en-us/topic/swapping-revolution-r-optimized-mkl-blas-libraries-66ad41cd-2276-ad9a-0104-0004eabc9bfa) to directly overwrite the R math library (`Rblas.dll` and `Rlapack.dll`). Brutal, but it works.
+Loading BLAS and LAPACK libraries for R on Windows is difficult (at least to me). The most "popular" [way](https://support.microsoft.com/en-us/topic/swapping-revolution-r-optimized-mkl-blas-libraries-66ad41cd-2276-ad9a-0104-0004eabc9bfa) to directly overwrite the R math library (`Rblas.dll` and `Rlapack.dll`). Brutal, but it works.
 
 Until I update my R and everything gone. I have to redo it. Also, it is annoying when I tried to use an R package (`semPlot`) and it dropped off error message. There is something wrong, I know. But I couldn't figure it out at that time. I went back to R's default library.
 
 ### Install BLAS and LAPACK on Linux
 
-It seems more straghtforward on Linux, because it is easier to complie your own R core by passing some files and flags like `--with-blas`. But I am not knowledgable enough to handle this. Also, some [tutorials(https://cran.r-project.org/doc/manuals/r-devel/R-admin.html#Shared-BLAS) suggest use dynamic link, but it does not work for me.
+It seems more straightforward on Linux, because it is easier to compile your own R core by passing some files and flags like `--with-blas`. But I am not knowledgeable enough to handle this. Also, some [tutorials](https://cran.r-project.org/doc/manuals/r-devel/R-admin.html#Shared-BLAS) suggest use dynamic link, but it does not work for me.
 
 Here is the way I realize how to make everything works well.
 
@@ -136,7 +136,7 @@ $ ls /usr/lib/R/lib/
 libR.so
 ```
 
-It leads me to a stackoverflow [question(https://stackoverflow.com/questions/72966093/how-to-resolve-librblas-so-no-such-file-or-directory-during-package-installat), where [Dirk Eddelbuettel(https://dirk.eddelbuettel.com), the guru of R, explained how they design the R core. In a simple way, R installed in my way is not built with libraries it carries. Therefore, my R is open to any system-wide library.
+It leads me to a StackOverFlow [question](https://stackoverflow.com/questions/72966093/how-to-resolve-librblas-so-no-such-file-or-directory-during-package-installat), where [Dirk Eddelbuettel](https://dirk.eddelbuettel.com), the guru of R, explained how they design the R core. In a simple way, R installed in my way is not built with libraries it carries. Therefore, my R is open to any system-wide library.
 
 > "allows you to switch BLAS installation"
 
@@ -153,7 +153,7 @@ Now let swtich installation for R. All we need to do is install BLAS & LAPACK li
 
 #### Intel oneAPI Math Kernel Library (oneMKL)
 
-You can choose whatever library you want, I use [Intel oneAPI Math Kernel Library(https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html#gs.9dcm00) for my office computer, and [OpenBlas(https://www.openblas.net) for my PC.
+You can choose whatever library you want, I use [Intel oneAPI Math Kernel Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html#gs.9dcm00) for my office computer, and [OpenBlas](https://www.openblas.net) for my PC.
 
 ```shell
 # Install Intel MKL
@@ -188,7 +188,7 @@ Matrix products: default
 BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/libmkl_rt.so
 ```
 
-Also, it seems that we need to run additional script according to Intel [Document(https://www.intel.com/content/www/us/en/developer/articles/technical/quick-linking-intel-mkl-blas-lapack-to-r.html) and many tutorials. I am not sure if it is necessary to do so. Maybe you can run it anyway:
+Also, it seems that we need to run additional script according to Intel [Document](https://www.intel.com/content/www/us/en/developer/articles/technical/quick-linking-intel-mkl-blas-lapack-to-r.html) and many tutorials. I am not sure if it is necessary to do so. Maybe you can run it anyway:
 
 ```shell
 export MKL_INTERFACE_LAYER=GNU,LP64
@@ -235,7 +235,7 @@ LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so
 
 ## Other Approach
 
-It seems there is a wrapper library [flexiblas(https://www.mpi-magdeburg.mpg.de/projects/flexiblas) allowing switch among different BLAS/LAPACK libraries. There is also a R package, "[Flexiblas(https://cran.r-project.org/package=flexiblas)" using API by the wrapper library. 
+It seems there is a wrapper library [flexiblas](https://www.mpi-magdeburg.mpg.de/projects/flexiblas) allowing switch among different BLAS/LAPACK libraries. There is also a R package, "[Flexiblas](https://cran.r-project.org/package=flexiblas)" using API by the wrapper library. 
 
 I may take a look later but current solution works pretty well.
 

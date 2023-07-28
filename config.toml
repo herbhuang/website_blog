@@ -110,7 +110,7 @@ lineNos = false
 lineNumbersInTable = true
 noClasses = true
 noHl = false
-style = "onedark"
+style = "modus-vivendi"
 tabWidth = 4
 
 [markup.tableOfContents]

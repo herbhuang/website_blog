@@ -18,9 +18,9 @@ categories: "tech notes"
 
 ## 前情提要
 
-我使用的命令行工具是 [Windows Terminal(https://github.com/microsoft/terminal).
+我使用的命令行工具是 [Windows Terminal](https://github.com/microsoft/terminal).
 
-按照本文设置前，请确保你安装了 <abbr title="Windows subsystem for Linux">WSL</abbr> ，参见[文档(https://docs.microsoft.com/zh-CN/windows/wsl/install). 
+按照本文设置前，请确保你安装了 <abbr title="Windows subsystem for Linux">WSL</abbr> ，参见[文档](https://docs.microsoft.com/zh-CN/windows/wsl/install). 
 
 如果你从来没有安装过 WSL， 在**管理员**模式下运行:
 
@@ -57,7 +57,7 @@ sudo apt upgrade
 
 ## 安装 R core 并添加 CRAN 仓库
 
-我遵循这个[教程(https://cloud.r-project.org/bin/linux/ubuntu/#install-r) 来安装 R 和 CRAN 库。
+我遵循这个[教程](https://cloud.r-project.org/bin/linux/ubuntu/#install-r) 来安装 R 和 CRAN 库。
 
 ```shell
 # update indices
@@ -93,7 +93,7 @@ Running under: Ubuntu 22.04.1 LTS
 
 RStudio Server 能用浏览器访问，界面一样，很酷。如果想安装 RStudio Desktop，需要配置 WSL 的 GUI。如果 Windows 版本够高（`10.0.22000` 以上），WSL 原生支持 GUI。但是何必呢？ 
 
-这个是安装 RStudio Server 的[文档(https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/)，里面有不同系统版本的命令。
+这个是安装 RStudio Server 的[文档](https://www.rstudio.com/products/rstudio/download-server/debian-ubuntu/)，里面有不同系统版本的命令。
 
 ```bash
 sudo apt install -y r-base r-base-core r-recommended r-base-dev gdebi-core build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
@@ -112,15 +112,15 @@ TTY detected. Printing informational message about logging configuration. Loggin
 
 ## 安装 BLAS 和 LAPACK 库以加速矩阵运算
 
-<abbr title="Basic Linear Algebra Subprograms">BLAS</abbr> and <abbr title="Linear Algebra PACKage">LAPACK</abbr> 能够加速 R 的运算，详见[此文(https://csantill.github.io/RPerformanceWBLAS/). 
+<abbr title="Basic Linear Algebra Subprograms">BLAS</abbr> and <abbr title="Linear Algebra PACKage">LAPACK</abbr> 能够加速 R 的运算，详见[此文](https://csantill.github.io/RPerformanceWBLAS/). 
 
 ### 在 Windows 上安装 BLAS 和 LAPACK 库
 
-安装好麻烦。最流行的[方法(https://support.microsoft.com/en-us/topic/swapping-revolution-r-optimized-mkl-blas-libraries-66ad41cd-2276-ad9a-0104-0004eabc9bfa) 是直接替换掉 R 自带的 `dll` 库 (`Rblas.dll` and `Rlapack.dll`). 简单粗暴，不过我后来在用一些 R 包 (`semPlot`) 的时候出了一点问题，只得返工。而且每次更新 R core 都要重新操作一下。
+安装好麻烦。最流行的[方法](https://support.microsoft.com/en-us/topic/swapping-revolution-r-optimized-mkl-blas-libraries-66ad41cd-2276-ad9a-0104-0004eabc9bfa) 是直接替换掉 R 自带的 `dll` 库 (`Rblas.dll` and `Rlapack.dll`). 简单粗暴，不过我后来在用一些 R 包 (`semPlot`) 的时候出了一点问题，只得返工。而且每次更新 R core 都要重新操作一下。
 
 ### Install BLAS and LAPACK on Linux
 
-Linux 更直接一些，你可以通过设置 `--with-blas` 编译带有特定加速库的 R， 但我整不明白。也有[教程(https://cran.r-project.org/doc/manuals/r-devel/R-admin.html#Shared-BLAS) 推荐用动态链接库的方式来整，我也整不明白。
+Linux 更直接一些，你可以通过设置 `--with-blas` 编译带有特定加速库的 R， 但我整不明白。也有[教程](https://cran.r-project.org/doc/manuals/r-devel/R-admin.html#Shared-BLAS) 推荐用动态链接库的方式来整，我也整不明白。
 
 这是我用的方法，自觉非常优雅。
 
@@ -133,7 +133,7 @@ $ ls /usr/lib/R/lib/
 libR.so
 ```
 
-具体可见一个 stackoverflow 的[讨论(https://stackoverflow.com/questions/72966093/how-to-resolve-librblas-so-no-such-file-or-directory-during-package-installat), 大佬 [Dirk Eddelbuettel(https://dirk.eddelbuettel.com) 说 R core 不需要自带一个加速库，他们设置为
+具体可见一个 stackoverflow 的[讨论](https://stackoverflow.com/questions/72966093/how-to-resolve-librblas-so-no-such-file-or-directory-during-package-installat), 大佬 [Dirk Eddelbuettel](https://dirk.eddelbuettel.com) 说 R core 不需要自带一个加速库，他们设置为
 
 > "allows you to switch BLAS installation"
 
@@ -150,7 +150,7 @@ LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.10.0
 
 #### Intel oneAPI Math Kernel Library (oneMKL)
 
-这里提供两个加速库的配置实例。我在我办公室电脑用了 [Intel oneAPI Math Kernel Library(https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html#gs.9dcm00)，自己的笔记本因为是 AMD 的 CPU，所以我安装了 [OpenBlas(https://www.openblas.net)。
+这里提供两个加速库的配置实例。我在我办公室电脑用了 [Intel oneAPI Math Kernel Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html#gs.9dcm00)，自己的笔记本因为是 AMD 的 CPU，所以我安装了 [OpenBlas](https://www.openblas.net)。
 
 ```shell
 # Install Intel MKL
@@ -184,7 +184,7 @@ Matrix products: default
 BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/libmkl_rt.so
 ```
 
-Also, it seems that we need to run additional script according to Intel [Document(https://www.intel.com/content/www/us/en/developer/articles/technical/quick-linking-intel-mkl-blas-lapack-to-r.html) and many tutorials. I am not sure if it is necessary to do so. Maybe you can run it anyway:
+Also, it seems that we need to run additional script according to Intel [Document](https://www.intel.com/content/www/us/en/developer/articles/technical/quick-linking-intel-mkl-blas-lapack-to-r.html) and many tutorials. I am not sure if it is necessary to do so. Maybe you can run it anyway:
 
 ```shell
 export MKL_INTERFACE_LAYER=GNU,LP64
@@ -231,7 +231,7 @@ LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so
 
 ## 其他的方法
 
-找资料的时候还看到一个 [flexiblas(https://www.mpi-magdeburg.mpg.de/projects/flexiblas) 库，以及对应的 R 包 "[Flexiblas(https://cran.r-project.org/package=flexiblas)"。有空看看。
+找资料的时候还看到一个 [flexiblas](https://www.mpi-magdeburg.mpg.de/projects/flexiblas) 库，以及对应的 R 包 "[Flexiblas](https://cran.r-project.org/package=flexiblas)"。有空看看。
 
 ## 这是我的安装环境
 

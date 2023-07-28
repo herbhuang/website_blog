@@ -40,8 +40,8 @@ title = "hello, it's me"
     title = "about"
     url = "about"
     [[entries.entries]]
-    title = "me@herbhuang.com"
-    url = "mailto:me@herbhuang.com"
+    title = "me#herbhuang.com"
+    url = "mailto:me#herbhuang.com"
     [[entries.entries]]
     title = "atom"
     url = "atom.xml"

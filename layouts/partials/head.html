@@ -10,16 +10,14 @@
       {{ else }}
         {{ $.Site.Title }}
       {{ end }}
-      
-      {{ if not .Site.IsServer }}
-      {{ template "_internal/google_analytics.html" . }}
-      {{ end }}
-
-
     </title>
   
-  
     <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
+
+    {{ if not .Site.IsServer }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+
     {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
     {{ $sass := resources.Get "css/main.scss" }}
     {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}

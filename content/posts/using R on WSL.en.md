@@ -142,7 +142,7 @@ It leads me to a StackOverFlow [question](https://stackoverflow.com/questions/72
 
 If we look into R, it shows the default matrix libraries are:
 
-```shell
+```R
 > sessionInfo()
 Matrix products: default
 BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.10.0
@@ -181,8 +181,7 @@ Press <enter> to keep the current choice[*, or type selection number:
 
 Going back to R, you will see
 
-```shell
-$ R
+```R
 > sessionInfo()
 Matrix products: default
 BLAS/LAPACK: /usr/lib/x86_64-linux-gnu/libmkl_rt.so
@@ -225,8 +224,7 @@ Press <enter> to keep the current choice[*, or type selection number:
 
 Going back to R, you will see
 
-```shell
-$ R
+```R
 > sessionInfo()
 Matrix products: default
 BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3

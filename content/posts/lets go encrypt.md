@@ -9,8 +9,8 @@ categories: website
 
 ## 参考资料
 
-- [Let'sEncrypt 免费通配符/泛域名SSL证书添加使用教程(https://lnmp.org/faq/letsencrypt-wildcard-ssl.html)]
+- [Let'sEncrypt 免费通配符/泛域名SSL证书添加使用教程](https://lnmp.org/faq/letsencrypt-wildcard-ssl.html)
 
-- [Let's Encrypt 官方网站(https://letsencrypt.org/)]
+- [Let's Encrypt 官方网站](https://letsencrypt.org/)
 
-- [维基百科：Let's Encrypt 项目(https://zh.wikipedia.org/wiki/Let%27s_Encrypt)]
+- [维基百科：Let's Encrypt 项目](https://zh.wikipedia.org/wiki/Let%27s_Encrypt)

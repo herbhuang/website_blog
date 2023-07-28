@@ -16,21 +16,29 @@ HSTS (**H**TTP **S**trict **T**ransport **S**ecurity) 是指 HTTP 严格传输�
 
 操作简单得很，只需要在 nginx 的 server 配置文件里添加一行代码：
 
+```shell
 {% codeblock nginx.conf %}
 add_header Strict-Transport-Security "max-age=63072000; includeSubdomains; preload";
 {% endcodeblock %}
+```
+
 
 为了避免点击劫持，还可以添加一段：
-
+```shell
 {% codeblock nginx.conf %}
 add_header X-Frame-Options "DENY";
 {% endcodeblock %}
+```
+
 
 同时为了「说一次英语」，还增加了一个 301 跳转，使得用户第一次访问 HTTP 版本时强制跳转成 HTTPS：
 
+```shell
 {% codeblock %}
 return 301 https://herbhuang.com$request_uri;
 {% endcodeblock %}
+```
+
 
 有个小插曲是我把 uri 拼成了 url，这两者属于包含关系，url（**l**ocator，统一资源定位符）是以定位方式确定的uri（**i**dentifier，统一资源标识符）。
 

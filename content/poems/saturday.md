@@ -1,6 +1,5 @@
 ---
-title: "周六"
-slug: "saturday"
+title: "Saturday"
 description: ""
 date: "2022-08-8T23:57:05-05:00"
 tags: 

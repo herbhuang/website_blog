@@ -1,6 +1,5 @@
 ---
-title: "有时总是"
-slug: "some-times-many-times"
+title: "Some Times Many Times"
 description: ""
 date: "2022-09-04T23:54:48-05:00"
 tags: 

@@ -1,6 +1,5 @@
 ---
 title: "视而不见"
-slug: "watching-without-seeing"
 description: ""
 date: "2022-11-03T09:54:30-05:00"
 tags: 

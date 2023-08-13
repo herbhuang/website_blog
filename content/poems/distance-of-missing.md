@@ -1,6 +1,5 @@
 ---
 title: "思念的距离"
-slug: "distance-of-missing"
 description: ""
 date: "2022-08-7T23:58:18-05:00"
 tags: 

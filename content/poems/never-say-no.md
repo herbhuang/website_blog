@@ -1,6 +1,5 @@
 ---
 title: "永不说不"
-slug: "never-say-no"
 description: ""
 date: "2022-09-03T23:51:58-05:00"
 tags: 

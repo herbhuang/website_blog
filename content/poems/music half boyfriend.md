@@ -5,6 +5,7 @@ tags:
     - music
     - lyrics
 categories: translations
+draft: true
 ---
 我们究竟何去何从\
 希望你不是在敷衍我\

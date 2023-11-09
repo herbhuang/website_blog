@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "typographical"
+license = "MIT"
+licenselink = "https://github.com/theramiyer/typographical-hugo/blob/master/LICENSE"
+description = "A port of the Tale theme for Hugo. Tale is a minimal Jekyll theme curated for storytellers."
+homepage = "https://github.com/theramiyer/typographical-hugo"
+tags = ["minimal", "clean", "responsive", "simple", "personal", "blog", "starter", "light", "typography"]
+features = ["pagination"]
+min_version = "0.59"
+
+[author]
+  name = "Ram Iyer"
+  homepage = "https://ramiyer.me"
+
+# If porting an existing theme
+[original]
+  name = "Chester How"
+  homepage = "https://www.emielhollander.nl"
+  repo = "https://github.com/EmielH/tale-hugo"

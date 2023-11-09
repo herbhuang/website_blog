@@ -1,0 +1,370 @@
+.post {
+  padding: 3rem 0;
+
+  &-info {
+    @include theme('color',$default-tint);
+    font-family: $serif-secondary;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+    span {
+      font-style: italic;
+    }
+
+    a {
+      color: inherit;
+    }
+  }
+
+  &-title {
+    font-family: $sans-serif;
+    font-size: 4rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  &-line {
+    border-top: 0.4rem solid $accent-color;
+    display: block;
+    margin: 0 auto 3rem;
+    width: 4rem;
+  }
+
+  p {
+    margin: 0 0 1em;
+    font-size: $base-font-size;
+  }
+
+  img {
+    margin: 0 auto 0.5rem -12.5%;
+    max-width: 125%;
+  }
+
+  figure {
+    margin: 0;
+
+    &> figcaption p {
+      text-align: center;
+      font-size: 0.8em;
+      font-family: $sans-serif;
+    }
+  }
+
+  img + em {
+    @include theme('color',$default-tint);
+    display: block;
+    font-family: $sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    text-align: center;
+  }
+
+  // CSS for making emoji inline
+  img.emoji {
+    display: inline-block;
+    left: 0;
+    transform: none;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+  }
+
+  .drop-cap {
+    font-size: $drop-cap-size;
+    float: left;
+    line-height: 1;
+    margin: $drop-cap-margins;
+  }
+
+  & > .post-subtitle {
+    font-size: $base-font-size;
+    line-height: 1.38;
+    font-family: $serif-primary;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  li {
+    font-size: $base-font-size;
+  }
+
+  &> .footnotes {
+    ol li, ol li p {
+      font-size: 0.9 * $base-font-size;
+      margin-bottom: 0.2em;
+    }
+
+    .reversefootnote {
+      background: none;
+    }
+  }
+
+  blockquote p, blockquote ul li, blockquote ol li {
+    font-size: 0.9 * $base-font-size;
+  }
+
+  &-footer {
+    margin: 2em 0;
+    p {
+      font-size: 0.95em;
+    }
+  }
+}
+
+.update-info {
+  font-family: $monospaced;
+  text-align: center;
+  font-size: 0.8em;
+  font-variant-numeric: lining-nums;
+  @include theme('color',$grey-1);
+  
+  a {
+    background: none;
+  }
+}
+
+.podcast-badge {
+  text-align: center;
+  margin-bottom: 1em;
+
+  p {
+    font-size: 1em;
+  }
+  
+  a {
+    &:after {
+      display: none;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    margin: 0;
+    display: inline;
+    margin: 0 0.5em;
+  }
+}
+
+.ethical-ads-container {
+  text-align: center;
+}
+
+.tinyletter-subscription {
+  font-size:0.9rem;
+  form {
+    padding:0.5em;
+    text-align:center;
+  }
+  input[type="text"] {
+    text-align:center;
+    max-width:20em;
+  }
+}
+
+.instagram-media {
+  margin: 0 auto 1em auto !important;
+
+  p {
+    line-height: 1.05em;
+  }
+
+  a {
+    background: none;
+  }
+}
+
+.twitter-tweet {
+  margin-bottom: 1em;
+}
+
+.twitter-tweet-rendered {
+  margin: 0 auto;
+}
+
+.support-button {
+  text-align: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.patreon-button {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  background-color: #f96854;
+  color: white;
+  border-radius: 1.2em;
+  padding: 0.4em;
+  max-width: 11em;
+  margin: 0 auto;
+  font-size: 0.8em;
+
+  svg {
+    margin-right: 0.1em;
+    margin-bottom: -0.05em;
+  }
+}
+
+.liberapay-button {
+  background-color: #f6c915;
+  color: $default-tint;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  font-size: 0.8em;
+  max-width: 12em;
+  font-weight: 600;
+  border-radius: 0.25em;
+  padding: 0.4em 0.5em;
+  margin: 0 auto;
+
+  svg {
+    margin-right: 0.2em;
+    margin-bottom: -0.05em;
+  }
+}
+
+.razorpay-button {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.gotcha {
+  display: none;
+}
+
+input[type="submit"] {
+  max-width: 8em;
+  background-color: $accent-color;
+  border-radius: 0.2em;
+  color: $base-color;
+  /* Disable iOS and Mozilla button overrides*/
+  -webkit-appearance: none;
+     -moz-appearance: none;
+}
+
+.contact-form {
+  margin-bottom: 2em;
+
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.yt-container {
+  position: relative;
+  margin-left: -12.5%;
+  width: 125%;
+  height: 0;
+  padding-bottom: 70.31%;
+}
+
+.yt-container, .spotify-container {
+  margin-bottom: 1em;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.search-bar {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.archive {
+  &-month {
+    margin-left: 0.67em;
+  }
+
+  &-post-title {
+    margin-left: 2em;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+abbr, .small-caps, .post-content > p:first-of-type::first-line {
+  font-variant: small-caps;
+  font-feature-settings: "c2sc";
+  letter-spacing: 0.01em;
+}
+
+.post-title, .post .post-title, .catalogue-title {
+  text-transform: lowercase;
+  font-weight: 800;
+}
+
+.relatedposts, .post {
+  ul li {
+    font-size: $base-font-size;
+    list-style-type: square;
+  }
+}
+
+#TableOfContents {
+  color: $accent-color;
+  li a {
+    background: none;
+  }
+}
+
+.relatedposts {
+  margin: 2.5em 0;
+}
+
+.post-content {
+  a {
+    background: none;
+
+    &::after {
+      position: relative;
+      content: "\FEFF°";
+      font-size: 90%;
+      top: -0.10em;
+      color: $code-color;
+    }
+  }
+
+  #TableOfContents a::after {
+    display: none;
+  }
+}
+
+.amazon-affiliate {
+  a {
+    &::after {
+      content: "\2197";
+      color: #f90;
+      top: -0.4em;
+      left: -0.1em;
+    }
+
+    &:hover {
+      &::after {
+        top: -0.5em;
+        left: -0em;
+        transition: 0.2s;
+      }
+    }
+  }
+}

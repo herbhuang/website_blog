@@ -1,0 +1,14 @@
+[writtenBy]
+other = "Von"
+
+[on]
+other = "am"
+
+[generator]
+other = "Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/theramiyer/typographical-hugo/'>Typographical</a> theme."
+
+[publishdate]
+other = "{{ .PublishDate.Day }}. {{ index $.Site.Data.months_de (printf \"%d\" .PublishDate.Month) }} {{ .PublishDate.Year }}"
+
+[privacy]
+other = "Datenschutz-Bestimmungen"

@@ -1,0 +1,175 @@
+.container {
+  margin: 0 auto;
+  max-width: 50em;
+  width: 80%;
+}
+
+main,
+footer,
+.nav-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 36em;
+  width: 80%;
+}
+
+.nav {
+  box-shadow: 0 2px 2px -2px $shadow-color;
+  overflow: auto;
+
+  &-container {
+    margin: 1rem auto;
+    position: relative;
+    text-align: center;
+  }
+
+  &-title {
+    @include transition(all .2s ease-out);
+    display: inline-block;
+    margin: 0;
+    padding-right: .2rem;
+    text-transform: lowercase;
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    @include transition(all .2s ease-out);
+    display: inline-block;
+    opacity: .6;
+    padding: 0 1rem 0 0;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+
+  a {
+    font-family: $sans-serif;
+  }
+}
+
+footer {
+  font-family: $serif-secondary;
+  padding: 2rem 0;
+  text-align: center;
+
+  span {
+    font-size: .8rem;
+  }
+}
+
+.share-bar {
+  text-align: center;
+  padding-bottom: 1.5em;
+
+  a {
+    margin: 0 0.1em;
+    font-size: 1.6em;
+
+    &:hover {
+      @include transition(all .2s ease-out);
+      color: $accent-color;
+    }
+  }
+}
+
+footer, .share-bar, .nav-container { /* Disable selection of some elements */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.footer-icons {
+  @include theme('color',$grey-2);
+  font-size: 3em;
+  margin-top: 0.2em;
+
+  .fas, .fab {
+    margin: 0 0.1em;
+  }
+}
+
+ul#results-container li, .catalogue ul li {
+  color: $accent-color;
+  list-style-type: square;
+}
+
+p, footer, .post-list, .relatedposts {
+  a {
+    @include accented-background;
+  }
+}
+
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -35%;
+  width: 30%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: 0.8 * $base-font-size;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+
+.sidenote-number:after,
+.sidenote:before {
+    position: relative;
+    vertical-align: baseline;
+}
+
+.sidenote-number:after {
+    content: counter(sidenote-counter);
+    font-size: 0.7 * $base-font-size;
+    top: -0.5rem;
+}
+
+.sidenote:before {
+    content: counter(sidenote-counter) " ";
+    font-size: 0.7 * $base-font-size;
+    top: -0.5rem;
+}
+
+
+.sidenote-number:after, .sidenote:before, .footnote-ref {
+  text-decoration: none !important;
+  filter: contrast(0.4);
+}
+
+blockquote .sidenote {
+    margin-right: -82%;
+    min-width: 59%;
+    text-align: left;
+}
+
+label.sidenote-number {
+    display: inline;
+}
+
+input.margin-toggle {
+  display: none;
+}

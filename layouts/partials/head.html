@@ -1,26 +1,118 @@
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {{ if .IsPage }} <meta name="description" content="{{ .Summary }}">  {{ end }}
-  
-    <title>
-      {{ if not .IsHome }}
-        {{ .Title }}
-      {{ else }}
-        {{ $.Site.Title }}
-      {{ end }}
-    </title>
-  
-    <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{- if .IsHome }}{{ .Site.Title }}{{- else }}{{ .Title }} &middot; {{ .Site.Title }}{{- end }}</title>
+    {{- if .IsHome }}
+        <meta name="description" content="{{ .Site.Params.Description }}">
+    {{- else if .Description }}
+        <meta name="description" content="{{ .Description }}">
+    {{- end }}
 
-    {{ if not .Site.IsServer }}
-    {{ template "_internal/google_analytics.html" . }}
+    <!-- Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ .Title }}{{ with .Params.Subtitle }}: {{ . }}{{ end }}">
+    <meta name="twitter:title" content="{{ .Title }}{{ with .Params.Subtitle }}: {{ . }}{{ end }}">
+    {{- if isset .Params "image" -}}
+        <meta property="og:image" content="{{ .Params.image }}">
+        <meta name="twitter:image" content="{{ .Params.image }}">
+    {{- end -}}
+    {{- if .IsHome }}
+        <meta property="og:description" content="{{ .Site.Params.Description }}">
+        <meta name="twitter:description" content="{{ .Site.Params.Description }}">
+    {{- else if .Description }}
+        <meta property="og:description" content="{{ .Description }}">
+        <meta name="twitter:description" content="{{ .Description }}">
+    {{- else if .Summary }}
+        <meta property="og:description" content="{{ .Summary }}">
+        <meta name="twitter:card" content="{{ .Summary }}">
+    {{- end }}
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="{{ .Site.LanguageCode | default " en" }}">
+    {{ with .Site.Params.fbAppId }}
+        <meta property="fb:app_id" content="{{ . }}">
+    {{ end }}
+    {{ if isset .Site.Params "twitter" }}
+        <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+        <link rel="me" href="https://twitter.com/{{ .Site.Params.twitter }}">
+    {{ else if isset .Site.Author "twitter" }}
+        <meta name="twitter:site" content="@{{ .Site.Author.twitter }}">
+        <link rel="me" href="https://twitter.com/{{ .Site.Author.twitter }}">
+    {{ end }}
+    {{ if isset .Site.Params "mastodon" }}
+        <link rel="me" href="https://{{ .Site.Params.Mastodon.Server }}/@{{ replace .Site.Params.Mastodon.Username " @" "" }}">
     {{ end }}
 
-    {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
-    {{ $sass := resources.Get "css/main.scss" }}
-    {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
-    <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
-    {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
-  </head>
+    <!-- Preload -->
+    {{ if (not .Site.Params.FontUrl) }}
+        <link rel="preload" as="font" type="font/woff2" href="/fonts/alegreya-regular.woff2" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/fonts/alegreya-italic.woff2" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/fonts/alegreya-sc-regular.woff2" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/fonts/alegreya-sans-extrabold.woff2" crossorigin>
+    {{ end }}
+
+    <!-- CSS -->
+    {{- $inServerMode	:= .Site.IsServer }}
+    {{- $cssTarget		:= "css/style.css" }}
+    {{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
+    {{- $style			:= resources.Get "scss/typographical.scss" | resources.ExecuteAsTemplate "scss/typographical.scss" . | toCSS $cssOptions | minify | fingerprint }}
+    
+
+    {{ with .Site.Params.FontUrl }}
+        <link href="{{ . }}" rel="stylesheet">
+    {{ end }}
+
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+    {{ range .Site.Params.css -}}
+        <link rel="stylesheet" href="{{ . | relURL }}">
+    {{- end }}
+    <!-- Heti -->
+
+    <!-- Hyphenopoly -->
+    {{ if .Site.Params.enableTypographicalHyphenation }}
+        <script>
+            var Hyphenopoly = {
+                require: {
+                    "en-gb": "Supercalifragilisticexpialidocious"
+                },
+                setup: {
+                    selectors: {
+                        "body": {}
+                    }
+                }
+            };
+        </script>
+        <script async src="/js/hyphenopoly/Hyphenopoly_Loader.js"></script>
+    {{ end }}
+
+    <!-- Font Awesome -->
+    <script defer src="/js/fontawesome/all.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" crossorigin="anonymous"> -->
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | relURL }}"> -->
+
+    <!-- EthicalAds -->
+    {{ if .Site.Params.EthicalAds.PublisherId }}
+        <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+    {{ end }}
+
+    <!-- RSS -->
+    <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+    <!-- Google Analytics -->
+    {{ if and (not site.IsServer) (.Site.GoogleAnalytics) }}
+        {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.Plausible }}
+    <!-- Plausible Analytics -->
+    {{ partial "plausible_head.html" . }}
+    {{ end }}
+    
+    <!-- For Hugo Generator -->
+    {{ hugo.Generator }}
+</head>

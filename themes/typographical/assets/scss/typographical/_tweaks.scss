@@ -1,0 +1,102 @@
+@media (min-width: 90em) {
+  html {
+    font-size: 1.2 * $base-font-size;
+  }
+}
+
+@media (min-width: 37.5em) {
+  .nav {
+    &-container {
+      text-align: left;
+    }
+
+    ul {
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
+@media (min-width: 64em) and (max-width: 80em) {
+  .sidenote {
+    margin-right: -23%;
+    width: 20%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  * {
+    line-height: 1.45em;
+  }
+
+  html {
+    font-size: 1.1 * $base-font-size;
+  }
+
+  blockquote {
+    margin: 0 0 0 2em;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .post-title {
+    font-size: 2.5em;
+  }
+
+  .post .drop-cap {
+    font-size: $drop-cap-size-small;
+  }
+
+  .nav {
+    &-title {
+      font-size: 2em;
+      margin-top: 1em;
+    }
+
+    &-container {
+      ul {
+        font-size: 1.3em;
+
+        a {
+          @include theme('color',$grey-1);
+        }
+      }
+    }
+  }
+
+  .share-bar {
+    .share-buttons {
+      font-size: 1.1em;
+
+      a {
+        margin: 0 0.25em;
+      }
+    }
+  }
+}
+
+@media (max-width:64em) {
+  .sidenote {
+    display: none;
+  }
+
+  .margin-toggle:checked + .sidenote {
+    display: block;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+    margin: 1rem 2.5%;
+    position: relative;
+  }
+}
+
+// Hacks
+::selection, strong {
+  background-color: $accent-color;
+  color: $base-color;
+}

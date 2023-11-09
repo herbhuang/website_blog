@@ -1,0 +1,78 @@
+// Themes
+$dark-theme: "dark-theme";
+$light-theme: "light-theme";
+
+$base-color: #222;
+$default-color: "default-color";
+$default-background: "default-background";
+$default-tint: "default-tint";
+$grey-1: "grey-1";
+$grey-2: "grey-2";
+$grey-3: "grey-3";
+
+$themes: (
+  $light-theme: (
+    $default-color: #222,
+    $default-background: #fff,
+    $default-tint: #aaa,
+    $grey-1: #979797,
+    $grey-2: #e5e5e5,
+    $grey-3: #f9f9f9,
+  ),
+  $dark-theme: (
+    $default-color: #bbb,
+    $default-background: #222,
+    $default-tint: #555,
+    $grey-1: #686868,
+    $grey-2: #1a1a1a,
+    $grey-3: #060606,
+  )
+);
+
+@mixin themeProperty($theme, $property, $color, $additionalPropertiesPositionIsFront, $additionalProperties) {
+  @if $additionalPropertiesPositionIsFront {
+    #{$property}: unquote($additionalProperties + ' ' + map-get($theme, $color));
+  } @else {
+    #{$property}: unquote(map-get($theme, $color) + ' ' + $additionalProperties);
+  }
+}
+
+@mixin theme($property, $color, $additionalPropertiesPositionIsFront: false, $additionalProperties: '') {
+  $light: map-get($themes, $light-theme);
+  $dark: map-get($themes, $dark-theme);
+  
+  @include themeProperty($light, $property, $color, $additionalPropertiesPositionIsFront, $additionalProperties);
+
+  @media (prefers-color-scheme: dark) {
+    @include themeProperty($dark, $property, $color, $additionalPropertiesPositionIsFront, $additionalProperties);
+    img {
+      filter: brightness(0.6) contrast(1.3);
+    }
+  }
+}
+
+// Colors
+$shadow-color: rgba(0, 0, 0, .2);
+$base-font-size: 1.2rem;
+$fa-font-path: "/fonts";
+
+@mixin box-sizing($type: border-box) {
+  -webkit-box-sizing: $type;
+     -moz-box-sizing: $type;
+          box-sizing: $type;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+     -moz-transition: $args;
+          transition: $args;
+}
+
+@mixin accented-background {
+  outline: none;
+  transition: all .2s ease-out;
+  background: linear-gradient($accent-color, $accent-color);
+  background-size: 100% .2em;
+  background-repeat: no-repeat;
+  background-position: left 0 bottom 0;
+}

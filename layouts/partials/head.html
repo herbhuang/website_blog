@@ -59,10 +59,13 @@
     {{- $style			:= resources.Get "scss/typographical.scss" | resources.ExecuteAsTemplate "scss/typographical.scss" . | toCSS $cssOptions | minify | fingerprint }}
     
 
-    {{ with .Site.Params.FontUrl }}
+    {{ with .Site.Params.GoogleFontUrl }}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="{{ . }}" rel="stylesheet">
     {{ end }}
-
+    {{ with .Site.Params.jsdFontUrl }}
+        <link href="{{ . }}" rel="stylesheet">
+    {{ end }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
     {{ range .Site.Params.css -}}
         <link rel="stylesheet" href="{{ . | relURL }}">

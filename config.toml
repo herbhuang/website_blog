@@ -47,11 +47,13 @@ email = "me@herbhuang.com"
     AccentColour = "#6da94d"
     MonospaceFont = "IBM Plex Mono"
     SerifFont = "Alegreya, \"朱雀仿宋（预览测试版）\""
-    SansSerifFont = "\"Alegreya Sans\",\"LXGW WenKai\""
+    SansSerifFont = "\"Alegreya Sans\",\"LXGW WenKai Screen\""
     description = "Accept who we really are"
     enableAutoAttribution = true
     enableTypographicalHyphenation = true
     privacyPolicyUrl = "/privacy/"
+    jsdFontUrl= "https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@latest/style.min.css"
+    GoogleFontUrl= "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Alegreya:ital,wght@0,400;0,700;1,400&display=swap"
     [params.dropCap]
       enable = false
 

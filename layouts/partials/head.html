@@ -59,7 +59,7 @@
     {{- $style			:= resources.Get "scss/typographical.scss" | resources.ExecuteAsTemplate "scss/typographical.scss" . | toCSS $cssOptions | minify | fingerprint }}
     <!-- local font pack -->
     {{ with .Site.Params.localFontUrl }}
-    <link rel="stylesheet" href="{{ . | relURL }}"  />
+    <link rel="stylesheet" type="text/css"  href="{{ . | relURL }}"  />
     {{ end }}
 
     

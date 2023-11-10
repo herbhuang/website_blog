@@ -52,9 +52,10 @@ email = "me@herbhuang.com"
     enableAutoAttribution = true
     enableTypographicalHyphenation = true
     privacyPolicyUrl = "/privacy/"
+    FontUrl = "true"
     jsdFontUrl= "https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@latest/style.min.css"
     GoogleFontUrl= "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Alegreya:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:ital@0;1&family=Noto+Serif+SC:wght@400;600&display=swap"
-    localFontUrl = "/fonts/ZhuqueFangsong-Regular/results.css"
+    localFontUrl = "/fonts/ZhuqueFangsong-Regular/result.css"
     [params.dropCap]
       enable = false
 

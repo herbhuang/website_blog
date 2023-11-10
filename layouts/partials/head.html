@@ -57,8 +57,12 @@
     {{- $cssTarget		:= "css/style.css" }}
     {{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
     {{- $style			:= resources.Get "scss/typographical.scss" | resources.ExecuteAsTemplate "scss/typographical.scss" . | toCSS $cssOptions | minify | fingerprint }}
-    
+    <!-- local font pack -->
+    {{ with .Site.Params.localFontUrl }}
+    <link rel="stylesheet" href="{{ . | relURL }}"  />
+    {{ end }}
 
+    
     {{ with .Site.Params.GoogleFontUrl }}
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="{{ . }}" rel="stylesheet">

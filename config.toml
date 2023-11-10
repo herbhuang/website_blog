@@ -53,7 +53,7 @@ email = "me@herbhuang.com"
     enableTypographicalHyphenation = true
     privacyPolicyUrl = "/privacy/"
     jsdFontUrl= "https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@latest/style.min.css"
-    GoogleFontUrl= "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Alegreya:ital,wght@0,400;0,700;1,400&display=swap"
+    GoogleFontUrl= "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Alegreya:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:ital@0;1&display=swap"
     [params.dropCap]
       enable = false
 

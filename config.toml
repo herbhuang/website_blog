@@ -28,17 +28,17 @@ email = "me@herbhuang.com"
     title = "About"
     url = "/about/"
     weight = 9
-    [[menu.main]]
-      identifier = "posts"
-    pre = "<i class='fas fa-book'></i>"
-      title = "Posts"
-      url = "/post/"
-      weight = 2
+    # [[menu.main]]
+    #   identifier = "posts"
+    # pre = "<i class='fas fa-book'></i>"
+    #   title = "Posts"
+    #   url = "/post/"
+    #   weight = 2
     [[menu.main]]
       identifier = "poem"
     pre = "<i class='fas fa-scroll'></i>"
       title = "Poem"
-      url = "/poem/"
+      url = "/categories/poems/"
       weight = 3
 
 

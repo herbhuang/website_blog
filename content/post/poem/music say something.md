@@ -7,6 +7,7 @@ tag:
 - lyrics
 categories: translations
 summary: ""
+categories: poems
 ---
 不说些什么吗？我将要放弃\
 你所愿的，我一个人也好\

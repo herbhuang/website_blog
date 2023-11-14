@@ -5,6 +5,7 @@ date: "2022-09-19T09:48:36-05:00"
 tags: 
     - "love"
 summary: ""
+categories: poems
 ---
 在很多时刻你是迷人的\
 我在狭路；无处可逃\

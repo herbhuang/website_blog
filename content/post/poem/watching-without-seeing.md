@@ -4,6 +4,7 @@ description: ""
 date: "2022-11-03T09:54:30-05:00"
 tags: 
 summary: ""
+categories: poems
 ---
 何必讨论骨肉相连\
 如何假装这一切未曾发生\

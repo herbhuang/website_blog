@@ -4,6 +4,7 @@ title: 不再
 date: 2017-12-16 23:08:44
 tags: love
 summary: ""
+categories: poems
 ---
 假装明天天亮就会有雪\
 我醒来接受天道的陈述\

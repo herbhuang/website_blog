@@ -2,6 +2,7 @@
 title: 关于A
 date: 2022-02-12 07:25:22
 summary: ""
+categories: poems
 ---
 
 你是我很喜欢的一段风\

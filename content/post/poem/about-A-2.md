@@ -2,6 +2,7 @@
 title: 关于A
 date: 2022-07-22 07:25:22
 summary: ""
+categories: poems
 ---
 
 应许的、推测的，所有细节\

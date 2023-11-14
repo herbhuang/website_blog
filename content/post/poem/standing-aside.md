@@ -5,6 +5,7 @@ date: "2022-08-10T23:54:56-05:00"
 tags: 
     - "love"
 summary: ""
+categories: poems
 ---
 于是很多故事反复重演\
 于是复读再复读\

@@ -5,6 +5,7 @@ date: "2023-02-24T09:58:12-05:00"
 tags: 
     - "love"
 summary: ""
+categories: poems
 ---
 同样耀眼的\
 你的眼睛和围绕你的光环\

@@ -5,6 +5,7 @@ date: 2018-02-01 23:17:25
 tags: 
 - love
 summary: ""
+categories: poems
 ---
 在时间的洗涤下\
 记忆都被增删改动\

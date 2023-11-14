@@ -5,6 +5,7 @@ date: "2022-08-28T23:46:16-05:00"
 tags: 
     - "love"
 summary: ""
+categories: poems
 ---
 宣示我的爱\
 向你吐露一些：\

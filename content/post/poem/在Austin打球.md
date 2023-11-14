@@ -2,6 +2,7 @@
 title: 在Austin打球
 date: 2022-07-31 07:25:22
 summary: ""
+categories: poems
 ---
 
 极尽热爱：高低网口\

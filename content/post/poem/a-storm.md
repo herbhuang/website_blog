@@ -3,6 +3,7 @@ title: "风雨"
 description: ""
 date: "2022-09-04T23:56:01-05:00"
 summary: ""
+categories: poems
 ---
 一次风雨\
 我想要告诉你切实的爱\

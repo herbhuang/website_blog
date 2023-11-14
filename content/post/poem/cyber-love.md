@@ -5,6 +5,7 @@ date: "2022-12-01T09:55:29-05:00"
 tags: 
     - "love"
 summary: ""
+categories: poems
 ---
 我在赛博世界寻觅裂隙\
 屏幕不会告诉我：\

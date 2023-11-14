@@ -4,6 +4,7 @@ description: ""
 date: "2022-09-05T23:56:39-05:00"
 tags: 
 summary: ""
+categories: poems
 ---
 又一次风雨\
 我们勉为其难地在这里奔赴\

@@ -5,6 +5,7 @@ date: "2022-10-03T09:53:13-05:00"
 tags: 
     - "love"
 summary: ""
+categories: poems
 ---
 长夜奔赴\
 从月色中起来\

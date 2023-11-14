@@ -4,6 +4,7 @@ date: "2022-08-14T23:37:03-05:00"
 tags: 
     - "love"
 summary: ""
+categories: poems
 ---
 展开自己的柔软\
 是清醒着走进牢笼\

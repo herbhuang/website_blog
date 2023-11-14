@@ -3,6 +3,7 @@ title: "告诉你一些事"
 date: "2022-08-21T23:38:46-05:00"
 tags: "love"
 summary: ""
+categories: poems
 ---
 
 目光流转，此时我泄露一些沮丧心情\

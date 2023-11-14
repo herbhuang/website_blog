@@ -1,6 +1,6 @@
 ---
 title: "Using R with BLAS and LAPACK on WSL"
-description: "Record of immigrating to Linux environment on WSL, including WSL, R core, Rstudio-server, Blas/Lapack library"
+summary: "Record of immigrating to Linux environment on WSL, including WSL, R core, Rstudio-server, Blas/Lapack library"
 date: "2022-08-16T21:25:36-05:00"
 tags: 
   - "WSL"
@@ -15,6 +15,8 @@ This guide records how I end up:
 - use R (and other Linux tools) on Linux via WSL
 - use Rstudio via any browser on Windows without leaving Unix platform
 - use computation library (blas/lapack) for R
+
+{{< toc >}}
 
 ## What you need
 

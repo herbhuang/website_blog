@@ -1,6 +1,6 @@
 ---
 title: "在 Windows 子系统上使用 BLAS/LAPACK 加速的环境"
-description: "利用WSL迁移到 R on Linux，并安装 RStudio Server 和矩阵加速库"
+summary: "利用WSL迁移到 R on Linux，并安装 RStudio Server 和矩阵加速库"
 date: "2022-08-16T21:25:36-05:00"
 tags: 
   - "WSL"
@@ -15,6 +15,8 @@ categories: "tech notes"
 - 在 Windows 环境下使用 Linux R
 - 通过浏览器使用 RStudio Server
 - 利用矩阵加速库 (blas/lapack) 为 R 提速
+
+{{< toc >}}
 
 ## 前情提要
 

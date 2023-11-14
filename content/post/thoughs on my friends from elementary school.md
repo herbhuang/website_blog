@@ -4,6 +4,8 @@ tags:
 - friend
 categories: essays
 date: 2013-08-06 17:52:23
+draft: true
+
 ---
 
 萦纡指尖绕\

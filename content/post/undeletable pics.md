@@ -3,6 +3,8 @@ title: 我的宾馆的P图删不掉了
 comments: false
 date: 2018-08-11 20:42:00
 categories: fictions
+draft: true
+
 ---
 向大家请教一个问题：旧的朋友圈删不掉是什么情况呀。
 
